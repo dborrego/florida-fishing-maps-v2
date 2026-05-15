@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html, body {
+  background: #040A14;
+  color: #F8FAFC;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(0, 229, 255, 0.35);
+  color: #F8FAFC;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(0,229,255,.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,255,.06) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.bg-radial-glow {
+  background-image: radial-gradient(circle at 50% 0%, rgba(0,229,255,.18), transparent 60%);
+}
+
+/* Animated chartplotter scan-line accent */
+.scan-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00E5FF, transparent);
+  opacity: 0.5;
+  pointer-events: none;
+  animation: scan 6s linear infinite;
+}
+
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Subtle glass card */
+.glass {
+  background: linear-gradient(180deg, rgba(15,34,64,.55), rgba(10,22,40,.65));
+  border: 1px solid rgba(0, 229, 255, 0.12);
+  backdrop-filter: blur(8px);
+}
+
+.glass:hover {
+  border-color: rgba(0, 229, 255, 0.32);
+  box-shadow: 0 0 32px -4px rgba(0, 229, 255, 0.25);
+}
+
+/* Coordinate-style mono number */
+.coord {
+  font-family: var(--font-mono);
+  letter-spacing: 0.04em;
+}
