@@ -1,0 +1,5526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>FloridaFishingMaps.com - FL Keys</name>
+	<snippet>Created 02/05/18 22:18:23</snippet>
+	<LookAt>
+		<gx:TimeSpan>
+			<begin>2000-01-01T05:00:00Z</begin>
+			<end>2018-02-03T21:01:07Z</end>
+		</gx:TimeSpan>
+		<longitude>-81.865996</longitude>
+		<latitude>24.596862</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>471461.739856</range>
+	</LookAt>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/fishing.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/fishing.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>10 W KBOUY</name>
+			<description>BUOY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.9821,24.717933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>107 WRECK</name>
+			<description>WRECK AND GENERAL GOOD BOTTOM FISHING AREA - CHUM, READ TUTORIALS</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.828514,24.508816,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>110FTGROUPER</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.332283,25.027033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>110FTYELLOWTAIL</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34375,25.02211700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>247 WRECK</name>
+			<description>WRECK AND GENERAL GOOD BOTTOM FISHING AREA - CHUM, READ TUTORIALS</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.81778900000001,24.550916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>26FTGROUPER</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.44963300000001,24.930017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>409 Hump</name>
+			<description>Superb Offshore Trolling for Tuna, Mahi and Sailfish</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.591667,24.591667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>409HUMP a</name>
+			<description>see 409 hump comment</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.5911,24.59185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>70TO90FTBLACKGROUPER</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.4761,24.931617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>90 WRECK</name>
+			<description>VERY OLD WRECK, GOOD BOTTOM AROUND THIS HOLE</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.83217000000001,24.503942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>95FTGROUPERYELLOWTAIL</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.380883,24.997733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ADOLPHBUSCH</name>
+			<description>210 FOOT FREIGHTER WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.461467,24.530683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALEXANDER</name>
+			<description>120 FT STEEL BARGE, THE ALEXANDER ALSO BRIDGE RUBBLE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.568333,24.861667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALGFINGER</name>
+			<description>Good Bottom Fishing - Bug Cubera&apos;s</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.62605000000001,24.841267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALLIGATOR2</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.61644699999999,24.852084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AMERICAN1</name>
+			<description>600 TONS NILES CHANNEL BRIDGE RUBBLE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.465317,24.552033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AMERICAN2</name>
+			<description>NILES CHANNEL BRIDGE RUBBLE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.466667,24.55145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AMERICAN3</name>
+			<description>KEMP CHANNEL BRIDGE RUBBLE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.466967,24.551983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AVAILABLESPOTS</name>
+			<description>DEEP DROP SPOTS FOR THE KEYS ARE AVAILABLE FROM FLFISHINGSPOTS.COM</description>
+			<TimeStamp><when>2018-02-03T20:57:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.212874,24.862418,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AVAILABLESPOTS 2</name>
+			<description>DEEP DROP SPOTS FOR THE KEYS ARE AVAILABLE FROM FLFISHINGSPOTS.COM</description>
+			<TimeStamp><when>2018-02-03T21:00:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.503677,24.62217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AVAILABLESPOTS3</name>
+			<description>DEEP DROP SPOTS FOR THE KEYS ARE AVAILABLE FROM FLFISHINGSPOTS.COM</description>
+			<TimeStamp><when>2018-02-03T21:00:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.022921,24.374814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AVAILABLESPOTS4</name>
+			<description>DEEP DROP SPOTS FOR THE KEYS ARE AVAILABLE FROM FLFISHINGSPOTS.COM</description>
+			<TimeStamp><when>2018-02-03T21:00:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.658305,24.300764,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AVAILABLESPOTS5</name>
+			<description>DEEP DROP SPOTS FOR THE KEYS ARE AVAILABLE FROM FLFISHINGSPOTS.COM</description>
+			<TimeStamp><when>2018-02-03T21:01:07Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.147789,24.322075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAHIAHONDA</name>
+			<description>SPANISH HARBOR BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.2907,24.595917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAHIAHONDA2</name>
+			<description>BRIDGE RUBBLE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.28966699999999,24.595767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAITHOLE1</name>
+			<description>RUNNERS W DRY ROCK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.98051700000001,24.495417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Benwood Wreck</name>
+			<description>old wreck, remnants remaining</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33366,25.05267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BIBB WRECK</name>
+			<description>327 FOOT USCG CUTTER BIBB LAYING ON STARBOARD SIDE 95&apos; TO RAIL, DEPTH 130, RELIEF 35, CONFIRMED USING LORAN</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37949999999999,24.995167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BIGPINEKEY1</name>
+			<description>SHALLOW REEF MODULES WITH PVC</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.324967,24.550267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BIGPINEREEF</name>
+			<description>RESEARCH MODULES LOW PROFILE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.32915,24.550933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BIGPINEREEF2</name>
+			<description>RESEARCH MODULES, HIGH PROFILE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.32365,24.541817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BIGPINEREEF3</name>
+			<description>RESEARCH MODULES, HIGH PROFILE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.32550000000001,24.544867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOILERS B</name>
+			<description>Subm boiler</description>
+			<TimeStamp><when>2012-10-02T19:49:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.252037,25.141182,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOLIERS A</name>
+			<description>Subm boilers</description>
+			<TimeStamp><when>2012-10-02T19:49:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.254097,25.147018,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CannonPatch</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2013-06-28T14:33:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34311200000001,25.107786,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CANNONREEF1</name>
+			<description>anhor chum fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2013-06-28T14:29:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34008799999999,25.103514,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CaptainCrunch</name>
+			<description>WRECK REMAINS</description>
+			<TimeStamp><when>2013-06-28T19:57:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.392093,25.008209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CARYSEDGE</name>
+			<description>GOOD BOTTOM FISHING AND TROLLING</description>
+			<TimeStamp><when>2012-10-02T19:50:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.22753899999999,25.193286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CARYSFORT1</name>
+			<description>WRECK WITH LIVE BOTTOM LEFT OVER</description>
+			<TimeStamp><when>2012-10-02T19:48:26Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.19882200000001,25.166931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CAYMANWRK</name>
+			<description>187 FT ARMY MINELAYER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.766333,24.4535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CHRISTINA</name>
+			<description>SCATTERED REEF AND  BOTTOM FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2012-06-11T11:30:48Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.483536,24.500198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>COALBIN</name>
+			<description>GOOD BOTTOM FISHING AND TROLLING AREA - SCATTERED WRECK AND LIVE BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.08833300000001,24.45,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>COOTWRECK</name>
+			<description>GOOD BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.583168,24.617099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORAKPATCH133</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.82993,24.465147,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH099</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:54:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.596825,24.543959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH100</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:54:25Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.53618299999999,24.52478500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH101</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:54:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.567504,24.511908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH102</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:54:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.63399699999999,24.524574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH103</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:54:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.61782700000001,24.513921,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH104</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:55:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.622593,24.50415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH105</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:55:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.57958000000001,24.522257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH106</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:55:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.653249,24.502929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH107</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:55:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.639748,24.498739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH108</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:55:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.606335,24.532227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH109</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:56:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.78539600000001,24.513245,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH110</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:56:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.81016,24.502846,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH111</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:56:57Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.77274,24.511365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH112</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAITk</description>
+			<TimeStamp><when>2013-06-28T20:57:18Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.71296100000001,24.481144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH113</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:57:26Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.683398,24.475859,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH114</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:57:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.711767,24.475056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH115</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:57:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.76757600000001,24.471407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH116</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:57:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.787813,24.469607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH117</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:57:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.75845,24.464407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH118</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:58:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.814207,24.467429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH119</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:58:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.808961,24.487562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH120</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:58:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.77106000000001,24.48202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH122</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.81778799999999,24.486989,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH123</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.822304,24.502991,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH124</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.76728900000001,24.503032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH125</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.743965,24.501462,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH126</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.75157400000001,24.497155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH127</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:59:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.671243,24.490202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH128</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:10Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.894947,24.476368,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH129</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.864745,24.466683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH130</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.919364,24.462127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH132</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.857879,24.47492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH134</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:00:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.85328199999999,24.443582,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH135</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:01:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.866405,24.444003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH136</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:01:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.907281,24.443304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH137</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:01:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.981809,24.438805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH138</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:02:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.97075700000001,24.433292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH139</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:02:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.929794,24.472765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH140</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:02:26Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.925478,24.45488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH141</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:02:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.918824,24.438525,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH142</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:02:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.946506,24.44458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH143</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.051534,24.47942700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH144</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:10Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.03896,24.470999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH145</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.03702300000001,24.449361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH146</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.04818400000001,24.447462,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH147</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.98564500000001,24.469385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH148</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:03:48Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.030725,24.43369300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH149</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.072495,24.442674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH150</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.09391100000001,24.488961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH151</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.050822,24.498697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH152</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.071806,24.534062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH153</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.06308900000001,24.517823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH154</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.07417100000001,24.521295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH155</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:05:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.122062,24.518999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH156</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:06:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.016745,24.519596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH157</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:06:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.010021,24.48911500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH160</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:06:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.224941,24.491787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH161</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.20005000000001,24.516849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH162</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.119871,24.511587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH163</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.089178,24.475095,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH164</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.23766500000001,24.46331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH165</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.185011,24.501728,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH166</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:07:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.225515,24.534545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH167</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:08:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.331782,24.520241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH168</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:08:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.358509,24.52229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH169</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:08:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.311362,24.538876,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH170</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:08:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.280205,24.499115,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH171</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:08:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.232682,24.483567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH172</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:09:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.976805,24.459257,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH173</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:09:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.016976,24.502824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH174</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:09:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.037898,24.46246,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH175</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:09:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.941396,24.469581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH176</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:10:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.95110099999999,24.49755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH177</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:10:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.884693,24.507605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH178</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:10:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.894432,24.453046,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH179</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:11:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.139869,24.667219,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH180</name>
+			<description>Wreck nearby and coral, limestone</description>
+			<TimeStamp><when>2013-06-28T21:11:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.108284,24.649973,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH181</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:11:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.090982,24.632102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH182</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:12:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.14603700000001,24.615731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH183</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:12:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.213331,24.59591500000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH184</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:12:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.163256,24.672895,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH185</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:12:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.10914,24.666798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH186</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:12:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.207627,24.634022,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH187</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:13:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.977024,24.71267900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH188</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:13:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.973826,24.665073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH189</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:13:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.85803900000001,24.725099,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH192</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.816288,24.753742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH193</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.83920500000001,24.718037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH194</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.85993499999999,24.74885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH195</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.833367,24.771218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH196</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:38Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.796638,24.731778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH197</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:14:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.88905699999999,24.696665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH198</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.74117800000001,24.75843800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH199</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.731692,24.812524,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH200</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.717601,24.825153,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH201</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.649496,24.831671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH202</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.651664,24.821272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH203</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:15:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.687027,24.796486,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH204</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:16:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.558914,24.864754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH205</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:16:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.587119,24.905104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH206</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:16:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.55125700000001,24.91478,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH207</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:16:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.52879,24.909422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH208</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:16:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.578727,24.892533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH209</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:17:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.46092,24.992857,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH210</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:17:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.430937,24.97304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH211</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:17:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.459339,24.971707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH212</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:17:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.492212,24.977752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALPATCH213</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T21:17:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.440865,24.96583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALWRECK2</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T21:06:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.986074,24.465437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALWRECK3</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T21:06:38Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.165718,24.45814100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALWRECKA</name>
+			<description>Wk in 110.0 ft</description>
+			<TimeStamp><when>2013-06-28T20:58:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.80497200000001,24.458399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>COSGROVE</name>
+			<description>Cosgrove lIve  bottom area</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.185,24.466667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>coshump</name>
+			<description>Humps - Good Fishing on bottom and trolling. Good Spot in general</description>
+			<TimeStamp><when>2012-06-11T10:32:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.17,24.448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CUDJOE</name>
+			<TimeStamp><when>2013-02-21T18:44:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.527264,24.659039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DAVIS REEF</name>
+			<description>4 REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.508867,24.923283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DIXIE WRECK 2</name>
+			<description>GOOD BOTTOM LEFT OVER FROM OLD WRECK</description>
+			<TimeStamp><when>2012-10-02T19:47:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.311089,25.066338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DIXIESHOAL2</name>
+			<description>GROUPER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.3103,25.065717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DixieShoalA</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.32803,25.06232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DOLPHIN3</name>
+			<description>Mahi and Sailfish - Wahoo on 12=12=2009</description>
+			<TimeStamp><when>2012-06-11T10:47:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.70262,24.339302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DOLPHINi22</name>
+			<description>Dolphin on the ledge</description>
+			<TimeStamp><when>2012-06-11T10:40:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.634117,24.48684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DRYROCK</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2012-06-11T10:49:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.914749,24.45282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DUANE WRK</name>
+			<description>327 FT USCG CUTTER</description>
+			<TimeStamp><when>2013-06-28T20:04:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.381917,24.990377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DUMPSITE3</name>
+			<description>Good Trolling</description>
+			<TimeStamp><when>2012-06-11T10:48:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.411722,24.432047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EAGLEWRECK</name>
+			<description>287 FOOT FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.570167,24.869667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EAST DRY ROCK</name>
+			<description>East Dry Rock area</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.841667,24.4625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EASTSAMBO</name>
+			<description>Live Bottom coral reef area - good fishing</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.66416700000001,24.491667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EJ BULLOC</name>
+			<description>WRECK AND NATURAL REEF IN AREA, FISHING CAN BE GOOD HERE</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.999844,24.500432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELINFANTE</name>
+			<description>WRECK WITH SCATTERED BOTTOM IN AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.468114,24.935413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FAREAPATCH</name>
+			<description>anhor in 12 14 ft chum fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:38:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.339314,25.117956,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FL ISLA IN</name>
+			<description>inside hump, blue water</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.449601,24.888354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FLINTSTONE</name>
+			<description>OLD WRECK, HOLDS FISH ON OCCASION</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.709834,24.627092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FLKEY6</name>
+			<description>Bottom Fishing Snapper Grouper</description>
+			<TimeStamp><when>2012-06-11T10:44:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.57171200000001,24.511201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FLKEYNorth</name>
+			<description>Note: TUNA, YELLOWTAIL, RED GROUPER, SILKY SNAPPER, CERO MACKEREL, KINGFISH, SAILFISH</description>
+			<TimeStamp><when>2012-06-11T10:27:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.375,24.437667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FLKEYS2</name>
+			<description>Bottom Fishing for Smapper Grouper</description>
+			<TimeStamp><when>2012-06-11T10:43:48Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.58486499999999,24.521531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FLKEYS47</name>
+			<description>Good Bottom Fishing snapper Grouper</description>
+			<TimeStamp><when>2012-06-11T10:50:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.106323,24.45488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FREDTWRK</name>
+			<description>391 FT FLETCHER DESTROYER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.55370000000001,24.459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReef</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34833,25.0343,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReef9</name>
+			<TimeStamp><when>2013-06-28T19:53:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.343774,25.037336,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReefA</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:53:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.345007,25.040468,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReefE</name>
+			<TimeStamp><when>2013-06-28T19:53:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34549,25.037314,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReefNE</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34383,25.03667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReefNW</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:53:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.354387,25.039066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FrenchReefSW</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:54:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.35006,25.030206,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GRASSPATCH G</name>
+			<description>live bottom or lobster</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.60273100000001,24.90003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GRASSPATCH H1</name>
+			<description>live bottom grass and reef</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.497686,24.942209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GROUPER 3</name>
+			<description>GROUPER IN 94 FT DRIFT OR ANCHOR AND CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.38978299999999,24.98551700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GROUPER 5</name>
+			<description>GROUPER IN 99 FEET DRIFT THEN ANCHOR AND CHUM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.50708299999999,24.90865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GROUPER DROP</name>
+			<description>GROUPER ON DROP OFF HERE DRIFT OR ANCHOR AND CHUM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.490683,24.92325,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GROUPER II</name>
+			<description>WRECK WITH GROUPER AND OTHER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.330967,25.0459,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GROUPER S</name>
+			<description>WRECK FISHING FOR GROUPER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.53610000000001,24.88795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HANNON CAN</name>
+			<description>KEVIN HANNON</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.288917,24.448783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAWKS15</name>
+			<description>Hawks Channel Troll and bottom fish</description>
+			<TimeStamp><when>2012-06-11T11:37:57Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.244348,24.621682,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>hawkspatch</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:47:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.512338,24.954566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HERMISWRECK</name>
+			<description>DEEP WATER WRECK</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.533171,24.600419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HHCONWAY</name>
+			<description>OLD WRECK AND SCATTERED BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.066458,24.667092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>honey1</name>
+			<description>HONEY HOLE FOR TROLLING AND FOR BOTTOM FISHING - CHUM HARD, SNAPPER GROYUPER</description>
+			<TimeStamp><when>2012-08-02T09:50:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.58062099999999,24.574931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP A</name>
+			<description>SCATTERED SMALL RIDGES OR LIVE BOTTOM IN AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.440108,24.804787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP B</name>
+			<description>SCATTERED SMALL RIDGES OR LIVE BOTTOM IN AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43892700000001,24.805819,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP D</name>
+			<description>SCATTERED SMALL RIDGES OR LIVE BOTTOM IN AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43804299999999,24.809866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP E</name>
+			<description>SCATTERED SMALL RIDGES OR LIVE BOTTOM IN AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.429851,24.809852,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP F</name>
+			<description>SCATTERED SMALL RIDGES OR LIVE BOTTOM IN AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43743499999999,24.813145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HUMP K</name>
+			<description>NEAR 409 HUMP - MAHI</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.58980099999999,24.589542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLA HUMP</name>
+			<description>OFFSHORE HUMP - SUPERB SPOT FOR TUNA, DOLPHIN AND SAILFISH</description>
+			<TimeStamp><when>2012-08-02T10:19:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.44456700000001,24.802917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLAMORADA1</name>
+			<description>LIGNUM VITAE BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.5514,24.84125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLAMORADA2</name>
+			<description>BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.557017,24.83845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLAMORADA3</name>
+			<description>INDIAN CUT BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.55115000000001,24.84195,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLAMORADA4</name>
+			<description>120 FOOT BARGE AND BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.559583,24.838867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLAMORADA5</name>
+			<description>OLD TEA TABLE BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.5514,24.8412,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISLHUMP2</name>
+			<description>BLUE WATER FISHING - MAHI, TUNA, SAILS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.446201,24.80444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JOES TUG</name>
+			<description>90 FOOT LONG TUGBOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.737833,24.464167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>K BOUY</name>
+			<description>CAN BUOY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.799767,24.725933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KB KINGFISH</name>
+			<description>55 LB KINGFISH CAUGHT ON THE GOTCHA BOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.987717,24.720983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KBUOY BAIT</name>
+			<description>BAIT FISH SPOT - GOOD TROLLING FOR KINGFISH AND DOLPHIN</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.8,24.725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KEYFISH23</name>
+			<description>Bottom Fishing Hawks Channel</description>
+			<TimeStamp><when>2012-06-11T10:56:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.620441,24.554357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KeyLargoHump</name>
+			<description>KEY LARGO BLUEWATER HUMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.28,25.01102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KeyLargoSW</name>
+			<description>FISHING AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.42362,25.03388,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kingfishalley3</name>
+			<description>kingfish ditch between these shoals</description>
+			<TimeStamp><when>2012-06-11T10:40:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.653025,24.496887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kingfishcove3</name>
+			<description>Key West Kingfish and Cero Mackerel Cove</description>
+			<TimeStamp><when>2012-06-11T10:38:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.688371,24.48561,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kingledge02</name>
+			<description>kings on ledge - Winning Fish in 2001
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bottom Fishing on ledge as well.</description>
+			<TimeStamp><when>2012-06-11T10:37:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.716646,24.477289,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KW BAITFISH2</name>
+			<description>GOOD BAIT -  BLUE RUNNERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.785183,24.491483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KWBARGEB</name>
+			<description>MOOSE SIZE KINGFISH, BIG CERO - GOOD TROLLING SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.85080000000001,24.519667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KWKINGFISH</name>
+			<description>NICE KINGS AT THIS SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.40455,24.429233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KWTOURNEY</name>
+			<description>HEAVY STEEL AND BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.759733,24.427883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KWTOURNEY0</name>
+			<description>100 FEET STEEL BARGE LOLA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.770833,24.4542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KWTOURNEY1</name>
+			<description>260 FOOT SHIP L.S.M.R.</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.770833,24.454167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM D</name>
+			<description>LIVE BOTTOM AREA -GOOD BOTTOM FISHING AND TROLLING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.493223,24.91277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVEBOTOM021</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2012-10-02T19:31:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.709885,24.559936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVEBOTOM1</name>
+			<description>live bottom reef</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.482865,24.931498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVEBOTOM2</name>
+			<description>PATCH REEF FISHING SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.53435399999999,24.918899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVEBOTTOM13</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.821669,24.537498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOB21</name>
+			<description>GOOD BOTTOM FISHING AND LOBSTERING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.8787,24.700183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER1</name>
+			<description>GROUPER, SNAPPER AND HOGFISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.68216700000001,24.84575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER2</name>
+			<description>GOOD SNAPPER GROUPER FISHING AND LOBSTERING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.894617,24.702933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER3</name>
+			<description>GOOD LOBTSERING AND LIVE BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.878317,24.699183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER4</name>
+			<description>GOOD LOBSTERING AND BOTTOM FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.714167,24.845983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER5</name>
+			<description>GOOD SNAPPER GROUPER FISHING AND LOBSTERING AND SPEARFISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.659333,24.8575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSNAPPER9</name>
+			<description>GOOD BOTTOM FISHING, SPEARFISHING AND LOBSTERING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.713283,24.8361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSTER C</name>
+			<description>LOBSTER HOLES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.7312,24.852667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSTER EAST</name>
+			<description>LOBSTERING AND GROUPER SNAPPER FISHING OR SPEARFISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.87656699999999,24.698217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSTER H</name>
+			<description>LOBSTER ROCKS AND HOLES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.72775,24.83815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LOBSTER6</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.809794,24.558574,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Long Key Reef B</name>
+			<description>Long Key Reef  [S]		N24 42.295 W80 49.244					Symbol &amp; Name	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Long Key Reef [S]		N24 42.650 W80 49.595					Symbol &amp; Name	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	LongKeyReef[S]1		N24 42.503 W80 49.390					Symbol &amp; Name	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	LongKeyReef[S]2		N24 42.601 W80 49.128					Symbol &amp; Name	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	LongKeyReef[S]3		N24 42.639 W80 49.226					Symbol &amp; Name</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82658000000001,24.71083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF</name>
+			<description>LONG KEY BRIDGE PARTS ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.827783,24.73175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LongKeyReef0</name>
+			<description>CORAL REEF AREA -GOOD FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82043,24.71065,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF01</name>
+			<description>LONG KEY BRIDGE ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.830533,24.7313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF03</name>
+			<description>LONG KEY BRIDGE PARTS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.827783,24.731667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LongKeyReef1</name>
+			<description>CORAL REEF AREA -GOOD FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.8188,24.71002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF11</name>
+			<description>LONG KEY BRIDGE, 5 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82925,24.733767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF12</name>
+			<description>LONG KEY BRIDGE, 5 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.826483,24.733533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF13</name>
+			<description>LONG KEY BRIDGE, 4 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82641700000001,24.7365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF2</name>
+			<description>ONG KEY BRIDGE,5 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.8289,24.726683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LongKeyReef3</name>
+			<description>CORAL REEF AREA -GOOD FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82317000000001,24.70838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF6</name>
+			<description>LONG KEY BRIDGE ,5 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.828467,24.726883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGKEYREEF7</name>
+			<description>LONG KEY BRIDGE, 9 PATCH REEFS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.827533,24.731167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LongKeyReefA</name>
+			<description>Reef materials, scattered capt. B.L.</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82073,24.70492,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAHISAILS D</name>
+			<description>TROLLING FOR MAHI, SAILS AND WAHOO</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.384151,24.819604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MAITAIWRK</name>
+			<description>WRECK - GOOD BOTTOM FISHING AND GOOD TROLLING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.00794999999999,24.468267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MANG SNAPPER</name>
+			<description>MANGROVE SNAPPER HEAVY CHUM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.560783,24.886283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MARATHON0</name>
+			<description>VACA CUT BRIDGE SPAN</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.95925,24.6398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MARATHON1</name>
+			<description>CONCRETE SLABS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.957517,24.641017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MARATHON4</name>
+			<description>CONCRETE BRIDGE SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.963117,24.650833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MARIA WRECK</name>
+			<description>WRECK - HOLDS FISH</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.08313,24.683754,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MARQU ROCK</name>
+			<description>MARQUESAS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.221333,24.465833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Marqueses1</name>
+			<description>Good Bottom fishing drop and trolling drop near Marquese Light.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: YELLOWTAIL, RED GROUPER, SILKY SNAPPER, CERO MACKEREL, KINGFISH, SAILFISH</description>
+			<TimeStamp><when>2012-06-11T10:22:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.474667,24.559167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses NE</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.364,25.01767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses NW</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.3755,25.01667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses SE</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37833000000001,25.00483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses SW</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.3805,25.012,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses1</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37452999999999,25.00964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Molasses2</name>
+			<description>CORAL REEF AREA -GOOD FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37342,25.00758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MolassesReef</name>
+			<description>MOLASSES REEF AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37447,25.00732,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MUTTON 1</name>
+			<description>MUTTONS AND GROUPER IN 86 FT CHUM HEAVY ON ANCHOR</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.362667,25.0077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MUTTON BOTTOM2</name>
+			<description>ANCHOR AND CHUM FOR BEST MUTTON FISHING AROUND</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.52545000000001,24.895933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NATURAL02</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.05657100000001,24.600197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NATURAL3</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.133894,24.500416,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NATURAL9</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.844818,24.534869,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>newground1</name>
+			<description>Good Bottom fishing drop or trolling.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: YELLOWTAIL, RED GROUPER, SILKY SNAPPER, CERO MACKEREL, KINGFISH, SAILFISH</description>
+			<TimeStamp><when>2012-06-11T10:25:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.423,24.4305,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NORTHERN LI</name>
+			<description>GOOD BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.21643400000001,25.050398,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH 3W</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.810036,24.560669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH A</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.81805799999999,24.542502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH B</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.826116,24.541114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH C</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.830275,24.545838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH C1</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.815022,24.552108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH C2</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.705558,24.479996,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH C5</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.831829,24.51392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH D</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.821202,24.541812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH F4</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.869789,24.709302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH G</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.811752,24.557259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH HH</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.55533699999999,24.887913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH REEF D</name>
+			<description>PATCH REEF FISHING SPOT FOR YTAIL SNAPPER AND CUBERA&apos;S. CHUM HEAVY FOR BEST RESULTS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.464842,24.946201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH YY</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.408227,24.54629900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>patch017</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:47:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.476298,24.961583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>patch018</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:48:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.54727200000001,24.906801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>patch020</name>
+			<description>hawks channel anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:50:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.59288700000001,24.911499,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>patch023</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:52:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.027846,24.655378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHF17</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:51:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.529647,24.555064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHPKAMP</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:20:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33676300000001,25.078173,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHPKAMP2</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:22:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.357101,25.061764,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE001</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:18:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.665053,24.508862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE002</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:19:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.514312,24.539562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE003</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:19:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.495295,24.540367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE004</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:20:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.498913,24.561015,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE005</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:20:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.552318,24.525043,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE006</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:20:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.432552,24.583368,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE007</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:21:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.303741,24.629365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE008</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:23:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.550969,24.563955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE009</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:23:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.563101,24.579601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHRE010</name>
+			<description>PATCH REEF, BOTTOM FISHING WITH CHUM, LIVE AND CUT BAIT FOR YELLOWTAIL AND MORE</description>
+			<TimeStamp><when>2016-10-01T21:24:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.574191,24.580866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF 2</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:48:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.623971,24.523871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>patchreef A</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:45:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.661455,24.528743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF001</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:24:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.346574,25.058429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF002</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:25:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34808200000001,25.05415,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF003</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:37:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.353292,25.125763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF004</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:37:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.32883099999999,25.112275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF005</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2013-06-28T14:36:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.32749,25.106322,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF006</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:25:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.313148,25.07844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF007</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:30:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.36462,25.036313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF008</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:30:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.356396,25.026558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF009</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<TimeStamp><when>2013-06-28T19:31:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.394492,25.046056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF010</name>
+			<description>YELLOWTAIL SNAPPER FISHING - MANGROVES, CHUM HEAVY - LIVE BAIT WHILE ANCHORED</description>
+			<TimeStamp><when>2013-06-28T19:31:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.38031700000001,25.046224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF011</name>
+			<description>YELLOWTAIL SNAPPER FISHING - MANGROVES, CHUM HEAVY - LIVE BAIT WHILE ANCHORED</description>
+			<TimeStamp><when>2013-06-28T19:38:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.39411,25.037814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF012</name>
+			<description>YELLOWTAIL SNAPPER FISHING - MANGROVES, CHUM HEAVY - LIVE BAIT WHILE ANCHORED</description>
+			<TimeStamp><when>2013-06-28T19:38:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.381168,25.031899,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF014</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:50:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.54167800000001,24.569601,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF015</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:50:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.547482,24.585642,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF016</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:26:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.438976,25.021923,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF018</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:27:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.39917800000001,24.999424,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF02</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:46:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.638775,24.541796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF020</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:28:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.407161,24.99365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF021</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:28:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.474237,24.98288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF022</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:28:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.464928,24.976178,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF023</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:28:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.48835699999999,24.960968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF024</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:29:03Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.421846,24.980282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF025</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:29:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43082200000001,24.992266,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF026</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:29:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.49510100000001,24.950032,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF027</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:29:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.512794,24.932843,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF028</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:29:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.477571,24.93928,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF029</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:30:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.542845,24.922335,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF03</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:46:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.596357,24.571307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF030</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:30:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.56774900000001,24.901555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF031</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:30:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.621285,24.87765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF032</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:31:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.599604,24.86192,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF033</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:31:26Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.59977000000001,24.873157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF034</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:33:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.652087,24.851304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF036</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:33:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.618099,24.897073,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF037</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:35:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.541207,24.896801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF038</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:35:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.586614,24.917465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF039</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:36:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.67341999999999,24.813549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF041</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:36:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.723456,24.774188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF042</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:37:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.767707,24.785223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF044</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:38:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.773078,24.756715,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF045</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:38:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.734988,24.776785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF046</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:40:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.75045,24.797188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF047</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:41:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.863066,24.761381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF048</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:42:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.910324,24.73286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF049</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:42:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.926518,24.719387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF05</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:46:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.648447,24.550495,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF050</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:42:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.92031400000001,24.719547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF051</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:43:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.946806,24.710689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF052</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:43:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.940319,24.731812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF053</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:44:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.97791599999999,24.717489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF054</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:44:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.979444,24.673466,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF055</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:44:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.047016,24.672329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF056</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:44:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.02032,24.693157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF058</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:45:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.938253,24.694262,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF059</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:45:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.93258899999999,24.689026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF060</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:45:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.972289,24.697688,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF062</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:46:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.00362800000001,24.659901,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF063</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:46:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.036841,24.647779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF065</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:46:42Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.03913,24.688119,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF066</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:46:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.03568199999999,24.658011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF067</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:47:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.991619,24.687188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF068</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:47:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.932103,24.681615,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF07</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:47:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.61820400000001,24.548757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF070</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:47:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.064982,24.648121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF071</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:48:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.028717,24.647448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF072</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:48:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.08330700000001,24.666538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF073</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:48:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.104511,24.642194,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF074</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:48:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.09441,24.635417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF075</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:48:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.081216,24.634042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF076</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:49:32Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.241512,24.590632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF077</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:49:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.254408,24.585484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF078</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:49:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.225008,24.605193,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF079</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.317589,24.602932,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF08</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:47:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.60728500000001,24.54572900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF080</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.295913,24.615216,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF081</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.34505,24.569807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF082</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.339125,24.562984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF083</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.292119,24.573146,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF085</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:51:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.427781,24.555361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF087</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:51:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.388977,24.549229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF088</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:51:26Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.33231499999999,24.559269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF09</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:48:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.638581,24.512905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCH-REEF-090</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:08Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.470916,24.535276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF092</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.489766,24.600423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF093</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.429928,24.605169,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF094</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.56411,24.545033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF095</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.587604,24.539224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF096</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:52:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.595494,24.537058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF097</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:53:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.552705,24.51401200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF098</name>
+			<description>CORAL AND PATCH REEF - CHUM HEAVY FOR SNAPPER, GROUPER - LIVE AND CUT BAIT</description>
+			<TimeStamp><when>2013-06-28T20:53:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.57704699999999,24.550916,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef10</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:43:03Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.266408,25.13813800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF11b</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:48:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.617775,24.50247,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef12</name>
+			<description>anhor chum in over 14 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:41:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.32193,25.135507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef13</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34072000000001,25.10735,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef14</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:39:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.315383,25.105249,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef15</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:43:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.323731,25.09351,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef18</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:43:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.282962,25.118101,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef19</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:35:57Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.345986,25.106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef2</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:35:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.340701,25.112586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef20</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34621,25.1035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef21</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:35:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.343295,25.102742,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef22</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:43:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34535,25.073067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef23</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:44:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.301864,25.128221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef24</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33434,25.10639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef25</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2013-06-28T14:42:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33572,25.100189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef26</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33615,25.10086,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef28</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:43:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.349921,25.085211,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef29</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33389,25.09092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef3</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:37:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.310406,25.123855,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef30</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33367,25.09145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef31</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33353,25.09205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF3g</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:50:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.463831,24.56763,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef4</name>
+			<description>anhor chum in over 15 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:40:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.31723599999999,25.09958200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef40</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34863,25.08092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef47</name>
+			<description>GOOD Y-TAIL AND MANGROVE SNAPPER FISHING - CHUM HEAVY, FISH A LIVE FLAT LINE FOR MACKEREL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34989,25.07922,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef5</name>
+			<description>anhor chum in over 10 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:39:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.370976,25.084604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef6</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34405,25.11014,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PatchReef9</name>
+			<description>PATCH REEF FOR BOTTOM FISHING YELLOWTAIL, MANGROVES - NIGHT FISHING FOR GROUPER- ALWAYS CHUM!!!</description>
+			<TimeStamp><when>2018-02-03T20:36:57Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.334137,25.105302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEFB13</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:50:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.503477,24.56254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEFC18</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:51:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.477554,24.56399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEFf84</name>
+			<description>PATCH REEF - YELLOWTAIL SNAPPER, GROUPER, MACKEREL ON FLAT LINES</description>
+			<TimeStamp><when>2013-06-28T20:50:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.378428,24.55839200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEFh10</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:48:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.67718499999999,24.527755,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHWK9E</name>
+			<description>Wk</description>
+			<TimeStamp><when>2013-06-28T20:45:07Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.934906,24.674263,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHWRECK</name>
+			<description>WRECK AND GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2013-02-21T18:47:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.620178,24.559765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHWRECK B</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T20:33:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.57476,24.883776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHWRECK4</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T20:51:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.47315,24.55890700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHWRK LM</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T20:46:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.963059,24.670401,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PELICAN</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.610085,24.48335700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pickles Reef</name>
+			<description>PICKLES REEF AREA - BOTTOM FISHING IS GOOD FOR SNAPPER AND GROUPER - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:11:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.416239,24.985607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PICKLESWRK</name>
+			<description>PICKLES REEF WRECK AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.41561,24.988739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PIKEPATCH</name>
+			<description>LOBSTER, SNAPPER, GROUPER -CHARTER BOAT RINGO SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.48741699999999,24.938783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLATFORMARGI</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37264,25.01674,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro pat011</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks incoming or ebb tide</description>
+			<TimeStamp><when>2018-02-03T20:33:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.34478,25.124837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro pat012</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks incoming or ebb tide</description>
+			<TimeStamp><when>2018-02-03T20:34:03Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.35528600000001,25.113904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro pat013</name>
+			<description>anhor chum in over 10 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:45:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.33340200000001,25.136346,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro pat014</name>
+			<description>anhor chum in over 15 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:45:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.422293,25.019831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro pat015</name>
+			<description>anhor chum in over 15 ft fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:46:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43871900000001,25.018616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro patch1</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks last 2 hours of falling tide</description>
+			<TimeStamp><when>2018-02-03T20:23:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.319721,25.127239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro patch2</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks last 2 hours of falling tide</description>
+			<TimeStamp><when>2018-02-03T20:27:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.313276,25.138313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro patch3</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks last 2 hours of falling tide</description>
+			<TimeStamp><when>2018-02-03T20:28:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.31197,25.142717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro patch4</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks last 2 hours of falling tide</description>
+			<TimeStamp><when>2018-02-03T20:30:18Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.292304,25.138141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pro patch5</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks last 2 hours of falling tide</description>
+			<TimeStamp><when>2018-02-03T20:30:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.295999,25.132942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PT109140FTGROUPER</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.46211700000001,24.928617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge11</name>
+			<description>anhor chum fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:40:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.293639,25.099278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge12</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:51:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.70263,24.77832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge13</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:48:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.523842,24.906886,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge15</name>
+			<description>anhor chum bottom fish in fish use two chum blocks incoming or ebb tide mangrove ytail grouper</description>
+			<TimeStamp><when>2018-02-03T20:52:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.049362,24.641066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge2</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks incoming or ebb tide</description>
+			<TimeStamp><when>2018-02-03T20:31:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.28677,25.106481,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>reefedge4</name>
+			<description>anhor chum fish around this deeper ledge use two chum blocks incoming or ebb tide</description>
+			<TimeStamp><when>2018-02-03T20:32:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.30242300000001,25.090237,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROBIN HOOD</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.799806,24.000438,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 11</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.74936700000001,24.540744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 13</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.80340700000001,24.509523,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 17</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.763182,24.517841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 22</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.833868,24.534277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 23</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.83215199999999,24.535403,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 33</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.84012900000001,24.509556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 332</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.84620099999999,24.513197,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 34</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.80727,24.56241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE12</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.818894,24.540276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE2</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.832143,24.534096,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM04</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.811689,24.557177,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM21</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.05019299999999,24.685724,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM24</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.037967,24.679453,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM26</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.031886,24.681333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM3</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.82361,24.550563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKBOTM4</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.811348,24.55747300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKLOBSTER4</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.809794,24.551516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKYBOTM4</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.808977,24.551672,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKYBOTOM4</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.82696900000001,24.5474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sand Island A</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.36922,25.01902,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SATIN SPOT</name>
+			<description>TOURNAMENT FISHING - WILD INJUN WIN IN 2002</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.98,24.443333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCAT REEF A</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.076504,24.647061,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCAT REEF B</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.07664699999999,24.648432,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCAT REEF D1</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.951983,24.456597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCAT REEF N</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.950321,24.455092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCAT REEF02</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.955145,24.453423,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATE REEF C</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.081462,24.638727,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATPATCH2</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.948318,24.455265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEF 1A</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.08422,24.620047,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEF S</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.963984,24.45325800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFA3</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.959313,24.444435,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFB</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.712332,24.512104,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFD2</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.89381899999999,24.491094,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFG3</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.949477,24.455931,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFG6</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.89081899999999,24.492426,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFH4</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.949315,24.453587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFJ1</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.911677,24.479067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCATREEFY1</name>
+			<description>Rocks or Natural Live Bottom Area</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.904814,24.484427,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEVEN MILE 1</name>
+			<description>7 MILE BRIDGE, SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.158067,24.582917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEVEN MILE 2</name>
+			<description>7 MILE BRIDGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.15598300000001,24.583667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEVEN MILE 3</name>
+			<description>7 MILE BRIDGE, SPANS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.15983300000001,24.582833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SEVEN MILE 4</name>
+			<description>OLD SEVEN MILE BRIDGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.166667,24.60555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SHRIMPBOAT B</name>
+			<description>OLD WRECK - HOLDS SNAPPER - NIGHT FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.41633,24.98717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SOUTHLEDGE1</name>
+			<description>Trolling and Bottom Fishing</description>
+			<TimeStamp><when>2012-06-11T10:58:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.957942,24.441028,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SOUTHPRIDE</name>
+			<description>GOOD WRECK, BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-83.13317600000001,24.63376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPEARFISH B</name>
+			<description>SPEARFISHING FOR HOGFISH, SNAPPER, GROUPER, LOBSTERING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.632783,24.838683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spiegel Grove</name>
+			<description>CHECK REGULATIONS</description>
+			<TimeStamp><when>2013-06-28T20:09:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.373169,25.010589,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPUEGEL BOTOM</name>
+			<description>EXCELLENT GROUPER SNAPPER CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.312333,25.066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STARGAZER</name>
+			<description>UNDERWATER SCULPTURES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.86666700000001,24.455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBEAMS</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<TimeStamp><when>2013-06-28T20:37:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.82135200000001,24.775457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SWIFTWATER</name>
+			<description>LIVE BOTTOM IN AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.856674,24.69000000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAIL R</name>
+			<description>MELTON BOAT - 56 POUND KINGFISH, COBIA AND DOLPHIN</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.41251699999999,24.427483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAIL ROCK</name>
+			<description>TAIL END</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.416983,24.429283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAILENDBY</name>
+			<description>BUOY, BAIT AT OR NEAR BOUY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.49695,24.4107,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TAILENDSOUTH</name>
+			<description>trolling and bottom fishing - good spot</description>
+			<TimeStamp><when>2012-08-02T09:58:24Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.617277,24.419694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>THUNDERBOLT</name>
+			<description>188 FT LONG NAVY CABLE VESSEL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.965,24.658,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TIDE RIP D</name>
+			<description>TIDE RIP NEAR HUMP - MAHI AND SAILFISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.425091,24.813222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>tortugaedge</name>
+			<description>trolling and bottom fishing</description>
+			<TimeStamp><when>2012-08-02T09:57:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.54541,24.409585,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>tortugas a</name>
+			<description>Bottom fishing for snapper and grouper</description>
+			<TimeStamp><when>2012-08-02T09:55:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.52005800000001,24.421271,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TORTUGAS B</name>
+			<description>MELTON BOAT - BIG KINGFISH - GOOD FISHING TROLLING AND BOTTOM FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.491083,24.41225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TORTUGASRN</name>
+			<description>GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.785,24.731667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>tortugaTROLL</name>
+			<description>trolling for sailfish, cobia, cero and kingfish</description>
+			<TimeStamp><when>2012-08-02T09:56:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.51815600000001,24.417368,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>troll27</name>
+			<description>Trolling Area - See Notes on Area in your GPS unit</description>
+			<TimeStamp><when>2012-06-11T11:36:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.321506,24.559458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trolling1</name>
+			<description>Good live bait trolling for several species</description>
+			<TimeStamp><when>2012-06-11T10:42:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.643891,24.519223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trolling13</name>
+			<description>Trolling and Bottom Fishing</description>
+			<TimeStamp><when>2012-06-11T11:33:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.392647,24.575259,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trolling14</name>
+			<description>Good trolling and bottom fishing area - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bIg Kingfish</description>
+			<TimeStamp><when>2012-06-11T11:34:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.35814600000001,24.601166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trolling4</name>
+			<description>Good Live Bait Trolling )COBIA/KINGS/Cero Mackerel</description>
+			<TimeStamp><when>2012-06-11T10:42:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.612191,24.52862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trolling5</name>
+			<description>Good trolling with live bait</description>
+			<TimeStamp><when>2012-06-11T10:43:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.574618,24.536737,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TurtleShoaL1</name>
+			<description>DANGER - CORAL, ROCKS, SHOAL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.39467000000001,25.02567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>USS CURB</name>
+			<description>213 FT. NAVY SALVAGE VESSEL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.768783,24.436867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>USS KENDRICK</name>
+			<description>448 FT. BRISTOL CLASS DESTROYER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.601067,24.460133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>USS SAUFLEY</name>
+			<description>377 FT. FLETCHER CLASS DESTROYER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.5829,24.449033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VANDENBERG</name>
+			<description>522 FEET  MISSILE TRACKING SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.73646700000001,24.45995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VITRIC WRECK</name>
+			<description>REEF MATERIAL AND GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.31644,24.967066,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WALL95FTMUTTONS</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.47075,24.937617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Wall95ftmuttons1</name>
+			<description>WALL95FTMUTTONS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.4761,24.938583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WESTDRYROCK</name>
+			<description>45 POUND KINGFISH ON THE PATSY IN 2001 - GOOD SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.95415,24.435017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WESTSAMBO</name>
+			<description>WEST SAMB REEF SPOT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.7445,24.474167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WhiteBank2</name>
+			<description>SNAPPER - YELLOWTAIL, MANGROVE, DAY OR NIGHT - CHUM HEAVY</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37143,25.04258,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WILKESBARGE2</name>
+			<description>610 FOOT CRUISER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.55336699999999,24.4849,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WILKESBARGE3</name>
+			<description>610 FOOT LIGHT CRUISER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.5523,24.484483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Winch Hole</name>
+			<description>REEF AND WRECK AREA HERE TO SOUTHE AND EAST</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.37439999999999,25,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WIRE HOLE</name>
+			<description>REEF MATERIAL AND GOOD REEF FISHING FOR GROUPER, SNAPPER AND MACKEREL. SEE YOUR TUTORIAL ON PATCH REEF FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.677217,24.490001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WOLF REEF</name>
+			<description>3 REEFBALLS DEPLOYED - HOLDS BAIT AND FISH</description>
+			<TimeStamp><when>2013-06-28T20:12:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.39692100000001,25.020622,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECK MUTTONS3</name>
+			<description>ANCHOR VERY CLOSE TO WRECK AND CHUM MUTTONS FROM WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.512467,24.906717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECK04</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2012-06-11T10:50:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-82.253609,24.458313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>wreck43</name>
+			<description>Old Wreck Aj Groouper and good trolling with live bait</description>
+			<TimeStamp><when>2012-06-11T10:45:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.54962500000001,24.479942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKCARLOSBIGMUTTONS</name>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.43601700000001,24.9364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKISLKEY</name>
+			<description>Wreck</description>
+			<TimeStamp><when>2013-06-28T21:13:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.866242,24.666882,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKMUTTONS</name>
+			<description>MUTTONS ON WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.499133,24.88655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>yellowtail01</name>
+			<description>Flag yellowtail and other snapper</description>
+			<TimeStamp><when>2012-06-11T10:39:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.705049,24.486566,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTAIL1</name>
+			<description>GOOD CHUM FISHING ON BOTTOM</description>
+			<TimeStamp><when>2012-10-02T19:49:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.23994999999999,25.176671,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTAIL12</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.82428299999999,24.54205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTAIL13</name>
+			<description>Live Bottom, Ricks or good structure for drfit fishing, lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.82306199999999,24.540834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTAIL2</name>
+			<description>BOTTOM FISHING CHUMMING</description>
+			<TimeStamp><when>2012-10-02T19:50:27Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.2662,25.155827,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTAIL35</name>
+			<description>Yellowtail Snapper - Check laws, may be closed for fishing</description>
+			<TimeStamp><when>2012-06-11T11:35:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.352481,24.558233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YELLOWTIL36</name>
+			<description>Yellow Tail Snapper</description>
+			<TimeStamp><when>2012-06-11T11:35:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.37346700000001,24.552913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YT TAILROCK</name>
+			<description>Live Bottom Rocks or good structure for drfit fishing lostering or Anchor chum fishing</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-81.816675,24.552847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>YTAIL GROUPER</name>
+			<description>YTAIL AND GROUPER ANCHOR AND CHUM HEAVY WAIT THEY WILL COME</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.386867,24.994517,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

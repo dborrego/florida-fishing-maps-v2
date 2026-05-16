@@ -1,0 +1,294 @@
+================================================================================
+         FLORIDAFISHINGMAPS.COM - GPS FILE LOADING INSTRUCTIONS
+================================================================================
+
+Thank you for your purchase from FloridaFishingMaps.com. This guide will walk
+you through loading your GPS fishing spots onto your chartplotter, mobile
+device, or computer. These files are delivered in industry-standard formats
+compatible with all major marine electronics brands.
+
+Your download includes files in one or more of these formats:
+  - GPX (Universal GPS Exchange Format)
+  - KML/KMZ (Google Earth / Mobile Apps)
+  - CSV (Spreadsheet / Manual Entry)
+
+If you run into any trouble, don't hesitate to reach out. We answer every
+email personally -- no bots, no runaround.
+
+  Email:   support@floridafishingmaps.com
+  Website: www.floridafishingmaps.com
+
+================================================================================
+                        TABLE OF CONTENTS
+================================================================================
+
+  1. Garmin Chartplotters
+  2. Lowrance / HDS Units
+  3. Humminbird / HELIX / SOLIX
+  4. Simrad NSS / NSX / GO Series
+  5. Raymarine Axiom / Element
+  6. Mobile Apps (Google Earth, Navionics, iBoating)
+  7. Computer Use (Google Earth Pro, OpenCPN)
+  8. Troubleshooting Tips
+  9. Legal Disclaimer
+
+================================================================================
+  1. GARMIN CHARTPLOTTERS (GPSMAP, ECHOMAP, ECHOMAP UHD)
+================================================================================
+
+Garmin units accept GPX files natively. This is the most straightforward
+process of any brand.
+
+METHOD A - Via SD Card (Recommended):
+  1. Insert a FAT32-formatted microSD card into your computer using a card
+     reader or adapter.
+  2. Create a folder on the card named "Garmin" (if one does not already exist).
+  3. Inside the "Garmin" folder, create a subfolder called "GPX".
+  4. Copy your .GPX file(s) into the Garmin/GPX folder.
+  5. Safely eject the SD card from your computer.
+  6. Insert the card into your Garmin chartplotter.
+  7. Power on the unit. Navigate to: Info > User Data > Data Transfer > Import.
+  8. Select the SD card and choose your GPX file.
+  9. Your waypoints will appear on the chart.
+
+METHOD B - Via Garmin HomePort / ActiveCaptain:
+  1. Install Garmin HomePort (free) or the ActiveCaptain app on your phone.
+  2. Connect your chartplotter via USB or WiFi (ActiveCaptain).
+  3. Import the GPX file into HomePort, then transfer to your device.
+  4. On ActiveCaptain: use the "Quickdraw Community" or data sync feature.
+
+GARMIN TIPS:
+  - Most Garmin units have TWO card slots. Either slot works for data import.
+  - After import, your spots are saved to internal memory. You can remove the
+    SD card once the transfer is complete.
+  - To organize spots, use the "Categories" feature on your Garmin to group
+    fishing spots by type (wrecks, reefs, ledges, etc.).
+
+================================================================================
+  2. LOWRANCE / HDS UNITS (HDS Live, HDS Carbon, Elite Ti2, Hook Reveal)
+================================================================================
+
+Lowrance units accept GPX files. Older units may require conversion to USR
+format using Insight Genesis.
+
+METHOD A - Via SD Card:
+  1. Format a microSD card as FAT32 on your computer.
+  2. Copy your .GPX file(s) directly to the root of the SD card. No special
+     folder structure is required for Lowrance.
+  3. Safely eject the card and insert it into your Lowrance unit.
+  4. Power on the unit. Navigate to: Files > My Card > (select your GPX file).
+  5. Tap "Import" or "View" depending on your software version.
+  6. For HDS Live/Carbon: Settings > Navigation > Waypoints > Import from Card.
+
+METHOD B - Via Insight Genesis (Online):
+  1. Go to insightgenesis.lowrance.com and create an account.
+  2. Upload your GPX file to your Insight Genesis account.
+  3. Sync to your unit via SD card or WiFi (HDS Live units only).
+
+LOWRANCE TIPS:
+  - Elite Ti2 and Hook Reveal units: use the "Files" button on the home screen.
+  - If your unit does not recognize the GPX file, rename the file extension to
+    .usr and try again -- some older firmware versions are picky.
+  - Always update your firmware before importing. Lowrance frequently adds
+    format support in updates.
+
+================================================================================
+  3. HUMMINBIRD (HELIX, SOLIX, MEGA Series)
+================================================================================
+
+Humminbird uses its own .HWR (Humminbird Waypoint) format, but newer units
+also accept GPX files directly.
+
+METHOD A - Via SD Card (HELIX 7 and newer, all SOLIX):
+  1. Format a microSD card as FAT32.
+  2. Copy the .GPX file(s) to the root of the SD card.
+  3. Insert the card into your Humminbird unit.
+  4. Navigate to: Nav > Waypoints > Import > SD Card.
+  5. Select the GPX file and import.
+
+METHOD B - Via HumminbirdPC (Older Units):
+  1. Download HumminbirdPC software from humminbird.com.
+  2. Use the software to convert your GPX file to HWR format.
+  3. Save the .HWR file to the root of a FAT32 SD card.
+  4. Insert into your unit and import via the Nav menu.
+
+METHOD C - Via Humminbird FishSmart App:
+  1. Open the FishSmart app on your phone.
+  2. Import the GPX file from your email or downloads folder.
+  3. Sync to your Humminbird unit via Bluetooth or WiFi (SOLIX/MEGA only).
+
+HUMMINBIRD TIPS:
+  - HELIX 5 units: must use HumminbirdPC to convert to HWR format.
+  - SOLIX units: the import process is under Chart > Menu > Waypoints.
+  - Maximum waypoint capacity varies by model. HELIX 7+ supports 5,000+
+    waypoints. Check your manual if you're loading large spot packages.
+
+================================================================================
+  4. SIMRAD (NSS evo3/evo3S, NSX, GO Series)
+================================================================================
+
+Simrad units share the same operating system as Lowrance (Navico). The process
+is nearly identical to Lowrance.
+
+METHOD A - Via SD Card:
+  1. Format a microSD card as FAT32.
+  2. Copy the .GPX file(s) to the root of the SD card.
+  3. Insert the card into your Simrad unit.
+  4. Navigate to: Settings > Waypoints > Import > SD Card.
+  5. Select your file and confirm import.
+  6. On NSS evo3: Files > Import Waypoints from Card.
+
+METHOD B - Via Simrad App:
+  1. Open the Simrad Companion app on your phone.
+  2. Connect to your Simrad unit via WiFi.
+  3. Import waypoints through the app's data management feature.
+
+SIMRAD TIPS:
+  - NSX units run a different operating system than older NSS units. On NSX,
+    the import function is under the "Data" menu.
+  - Simrad GO series: use the "Files" key on the home screen.
+
+================================================================================
+  5. RAYMARINE (Axiom, Axiom+, Axiom Pro, Element, Element HV)
+================================================================================
+
+Raymarine units accept GPX files via SD card or WiFi through the Raymarine app.
+
+METHOD A - Via SD Card:
+  1. Format a microSD card as FAT32.
+  2. Create a folder on the card called "Raymarine" (optional but recommended).
+  3. Copy the .GPX file(s) into the folder or the root of the card.
+  4. Insert the card into the Axiom or Element unit.
+  5. Navigate to: Menu > My Data > Import/Export > Import from Card.
+  6. Select the GPX file and confirm.
+
+METHOD B - Via Raymarine App / WiFi:
+  1. Connect your Axiom to your phone via WiFi.
+  2. Open the Raymarine app and use the "Waypoints" sync feature.
+  3. Import GPX data through the app interface.
+
+RAYMARINE TIPS:
+  - Element series: make sure you are running LightHouse Sport OS 4.0+.
+  - Axiom Pro: supports drag-and-drop when connected to a PC via USB.
+  - Dragonfly units (older): use the Raymarine Waypoint Import tool on a
+    computer to convert and transfer.
+
+================================================================================
+  6. MOBILE APPS
+================================================================================
+
+GOOGLE EARTH (iOS / Android / Desktop):
+  1. Open the .KML or .KMZ file from your email or downloads folder.
+  2. Your phone should offer to open it in Google Earth automatically.
+  3. If not, open Google Earth, tap the menu, select "Projects" > "Import KML."
+  4. Your fishing spots will appear as pins on the map.
+  5. Tap any pin to see spot details, coordinates, and depth info.
+
+NAVIONICS BOATING APP (iOS / Android):
+  1. Open the Navionics Boating app.
+  2. Tap the menu icon > "My Data" > "Import GPX."
+  3. Browse to your downloaded .GPX file and select it.
+  4. Your waypoints will load onto the Navionics chart.
+  5. Community features: you can overlay your spots with Navionics SonarChart.
+
+iBOATING APP (iOS / Android):
+  1. Open iBoating and navigate to the "Markers" or "Routes" section.
+  2. Tap "Import" and select the GPX file from your device.
+  3. Spots will appear as markers on your iBoating charts.
+
+GENERAL MOBILE TIPS:
+  - If your phone does not offer to open the file in the correct app, try
+    using a file manager app to navigate to the download and tap to open.
+  - Most fishing apps also accept manual coordinate entry. The CSV file
+    included in your download has all coordinates listed for easy reference.
+
+================================================================================
+  7. COMPUTER USE
+================================================================================
+
+GOOGLE EARTH PRO (Free Desktop Software):
+  1. Download and install Google Earth Pro from google.com/earth.
+  2. Open Google Earth Pro.
+  3. Go to File > Open.
+  4. Change the file type filter to "KML/KMZ" or "GPS (GPX)."
+  5. Select your file and click Open.
+  6. Your spots will appear in the "Places" panel on the left side.
+  7. Double-click any spot to fly to it on the map.
+  8. Use the ruler tool to measure distances from your marina or inlet.
+
+OPENCPN (Free Marine Charting Software):
+  1. Download OpenCPN from opencpn.org.
+  2. Install and add your preferred charts (NOAA is free).
+  3. Go to the Route & Waypoint Manager (Ctrl+W).
+  4. Click "Import GPX" and select your file.
+  5. Spots will appear on your chart.
+
+MICROSOFT EXCEL / GOOGLE SHEETS (CSV Files):
+  1. Open the .CSV file in Excel or Google Sheets.
+  2. Each row contains: Spot Name, Latitude, Longitude, Depth, Type, Notes.
+  3. Use this for manual entry into any chartplotter, GPS, or app.
+  4. Sort and filter by depth, type, or area to find exactly what you need.
+
+================================================================================
+  8. TROUBLESHOOTING TIPS
+================================================================================
+
+  - FILE NOT RECOGNIZED: Make sure your SD card is formatted as FAT32, not
+    exFAT or NTFS. Most marine electronics only read FAT32.
+
+  - WAYPOINTS NOT SHOWING: After import, you may need to enable the waypoint
+    layer on your chart display. Check your overlay or layer settings.
+
+  - TOO MANY WAYPOINTS: Some older units have waypoint limits (500-2,000).
+    If you hit the limit, split the GPX file into smaller sections using a
+    free tool like GPX Editor (gpx.studio).
+
+  - SD CARD NOT READING: Try a different card. Some units are picky about
+    card brands or sizes. Cards over 32GB may not format as FAT32 natively
+    on Windows -- use a tool like Rufus or FAT32 Format to force it.
+
+  - COORDINATES LOOK WRONG: Our files use WGS84 datum (the universal GPS
+    standard). Make sure your chartplotter is set to WGS84, not NAD27 or
+    another datum.
+
+  - STILL STUCK? Email us at support@floridafishingmaps.com with your device
+    model and a screenshot of the issue. We'll walk you through it.
+
+================================================================================
+  9. LEGAL DISCLAIMER
+================================================================================
+
+IMPORTANT -- PLEASE READ:
+
+The GPS coordinates, waypoints, and fishing spot data provided by
+FloridaFishingMaps.com are intended for recreational fishing use only. These
+coordinates are approximate and are provided "as is" without warranty of any
+kind, express or implied.
+
+NAVIGATION SAFETY: GPS waypoints are NOT a substitute for safe navigation
+practices. Always use updated nautical charts, maintain a proper lookout,
+and follow all USCG and state boating regulations. Water depths, bottom
+conditions, and navigational hazards change over time due to storms,
+currents, and other factors. Never navigate solely by GPS waypoints.
+
+LIABILITY: FloridaFishingMaps.com, its owners, and affiliates shall not be
+held liable for any damages, injuries, vessel damage, or loss arising from
+the use of these GPS coordinates. Use at your own risk. The captain is always
+responsible for the safe operation of the vessel.
+
+REGULATIONS: Fishing regulations change frequently. It is YOUR responsibility
+to check current FWC (Florida Fish and Wildlife Conservation Commission)
+regulations for bag limits, size limits, seasonal closures, and restricted
+areas before fishing. Visit MyFWC.com for current regulations.
+
+COPYRIGHT: These GPS coordinates and associated files are licensed for
+personal use by the original purchaser only. Redistribution, resale, or
+sharing of these files is strictly prohibited and subject to legal action
+under federal copyright law.
+
+For questions or support: support@floridafishingmaps.com
+Website: www.floridafishingmaps.com
+
+================================================================================
+   (c) FloridaFishingMaps.com - All Rights Reserved
+================================================================================

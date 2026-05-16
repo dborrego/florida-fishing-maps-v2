@@ -1,0 +1,3865 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>FloridaFishingMaps.com - Miami Offshore</name>
+	<snippet>Created 01/18/18 18:14:26</snippet>
+	<LookAt>
+		<gx:TimeSpan>
+			<begin>2000-01-01T05:00:00Z</begin>
+			<end>2018-01-18T22:53:51Z</end>
+		</gx:TimeSpan>
+		<longitude>-80.079768</longitude>
+		<latitude>25.701057</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>115443.766303</range>
+	</LookAt>
+	<Style id="waypoint_n">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/fishing.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="waypoint">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint_h">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/fishing.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>100FTBARGE</name>
+			<description>100 FT STEEL BARGE BILLYS BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07285,25.774033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>101TUGBOAT</name>
+			<description>AJ COBIA BAITFISH 101 FT STEEL HULLED TUGBOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09275,26.009133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>110FTSTEELSHIP</name>
+			<description>110 FT STEEL SHIP AJ COBIA BONITA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089833,25.811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>110FTWRECK</name>
+			<description>110 FT STEEL SHIP HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.096667,25.849283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>116FTSHIP</name>
+			<description>115 FEET STEEL FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0873,25.70153300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>120FTBARGE</name>
+			<description>AJ SNAPPER BONITA 120 FT DECK BARGE ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083333,25.7063,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>120FTSTEELBOAT</name>
+			<description>BONITO SKIPJACK BLACKFIN AJ120 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08836700000001,25.704383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>164FTSHIP</name>
+			<description>RAYCHEL WRECK HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07938,25.8202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>165FTSHIP</name>
+			<description>165 FT STEEL SHIP HOLDS AJ AND BONITA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09099999999999,25.621933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>177FTWOODSHIP</name>
+			<description>177 FOOT MINE SWEEPER SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.05283,25.80683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>195FTBARGE</name>
+			<description>195 FT STEEL BARGE HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08799999999999,25.696833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>20FTLEDGE</name>
+			<description>TROLL OR DRIFT LEDGES AND LIVE BOTTOM</description>
+			<TimeStamp><when>2012-10-02T14:12:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.098794,25.738451,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>215FTBARGE</name>
+			<description>215 FT STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089167,25.7011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3BROSWRECK</name>
+			<description>WRECK OR WRECK REMAINS, GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.125833,25.570833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>3MILEBOTTOM</name>
+			<description>LIVE BOTTOM ON THE THREE MILE LINE</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.064769,25.817041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>441WRECK</name>
+			<description>WRECK REMAINS AND LIVE BOTTOM ATTACHED</description>
+			<TimeStamp><when>2012-10-02T14:10:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.04982,25.625782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>45FTTUGBOAT</name>
+			<description>45 FT STEEL HULLED TUGBOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.090617,25.908883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>60FTBARGE</name>
+			<description>60 FT STEEL DECK BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.090867,25.8117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>727JETLINER</name>
+			<description>727 JET ON BOTTOM, HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087,25.698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>756WRECK</name>
+			<description>TROLLING FOR SAILS AND MAHI</description>
+			<TimeStamp><when>2012-10-02T14:10:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.050163,25.790405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>80FTWRECK</name>
+			<description>80 FT FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083167,25.6995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>90FTSAILBOAT</name>
+			<description>90 FT SAILING SCHOONER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.078833,25.690833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>90FTSTEELHULL</name>
+			<description>90 FT STEEL SHIP ON BTM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083117,25.727067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>AAPCAR</name>
+			<snippet></snippet>
+			<description>Ý</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.096667,25.590283,-7.62</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ADAMELIA</name>
+			<description>WRECK REMAINS GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.108102,25.675378,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALICIA1</name>
+			<snippet></snippet>
+			<description>0Ý</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12736700000001,25.412233,-6.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALICIA2</name>
+			<description>WRECK OR WRECK REMAINS GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.128097,25.412053,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ALUMINUMWRK</name>
+			<description>MANGROVES 34 FT ALUMINUM VESSEL ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.1297,25.948583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ANCHORAGEROCKS</name>
+			<description>ANCHORAGE ROCK SITE SCATTERED LIMESTONE AND BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08925000000001,25.81293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ANDROWRECK</name>
+			<description>WRECK HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08555,25.89405,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ARAKANAPKA</name>
+			<description>WRECK OR WRECK REMAINS GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2016-03-15T00:02:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09581900000001,25.591686,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ARMYTANKS</name>
+			<description>M 60 US ARMY TANKS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09133300000001,25.81133300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ARMYTANKS2</name>
+			<description>ARMY TANKS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09133,25.81133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ATHENEWRECK</name>
+			<description>WRECK REMAINS GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08309300000001,25.583714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ATLASBARGE</name>
+			<description>BARGE WRECK in 110</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.084417,25.820417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BACHESHOAL</name>
+			<snippet></snippet>
+			<description>Ä</description>
+			<TimeStamp><when>2016-05-21T14:46:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.163685,25.485636,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BARGE100FT</name>
+			<description>100 FT STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070267,25.6691,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BarryPark</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.145008,25.793669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BAYREEF1</name>
+			<description>CONCRETE PILINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08167,25.81383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BILLYSBARGE</name>
+			<description>OLD BARGE HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09032000000001,25.81278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BISCAYNE2</name>
+			<description>WRECK AND LIVE BOTTOM AROUND AREA IN GENERAL</description>
+			<TimeStamp><when>2012-10-02T14:28:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09170500000001,25.883617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BLUEFIREWRECK</name>
+			<description>BLUE FIRE STEEL SHIP ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09052,25.56661,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BLUEWATER5</name>
+			<snippet></snippet>
+			<description>Ä</description>
+			<TimeStamp><when>2016-03-14T23:36:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.077674,25.547861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOMBHOLE</name>
+			<description>OLD BOMBS LIVE BOTTOM BAIT</description>
+			<TimeStamp><when>2016-03-14T23:45:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093501,25.593457,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOTTOMHOLE</name>
+			<description>DROP OFF CHUM FOR SNAPPER</description>
+			<TimeStamp><when>2016-03-14T23:23:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09117999999999,25.787795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOULDEREEF1</name>
+			<description>LIMESTONE BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089883,25.902233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOULDERS</name>
+			<description>1000 TONS OF ROCK ON AND AROUND SEAWALL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12858300000001,25.948983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BOULDERS2</name>
+			<description>LIMESTONE BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089933,25.812183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BREWSTEREEF</name>
+			<description>reef patch chum heavily squid cutbai or live</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09863,25.56627,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BRIDGERUBBLE</name>
+			<description>CONCRETE BRIDGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0676,25.666983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BRITNEYWRECK</name>
+			<description>165 FT SHIP AJ BONITO SKIPPYS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086833,25.700483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BROADCREEK3</name>
+			<snippet></snippet>
+			<description>Ä</description>
+			<TimeStamp><when>2016-03-15T00:15:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.187617,25.315567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CHANNEL1</name>
+			<description>LIVE BOTTOM NORTH OF CHANNEL HOLDS BAIT</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09460900000001,25.76379800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CHANNEL2</name>
+			<description>LIVE BOTTOM SOUTH OF CHANNEL HOLDS BAIT</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.096864,25.761113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CHEVRONTNKS</name>
+			<description>50 STEEL CHEVRON STORAGE TANKS AJ SNAPPER BONITA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070517,25.66725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEBOAT</name>
+			<description>50 FT CONCRETE SAILBOAT ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093183,26.009583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEBOATS</name>
+			<description>CEMENT SAILBOATS ON BOTTOM BONITO AJ COBIA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093317,26.010017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE</name>
+			<description>320 TONS OF CONCRETE PIPE HOLDS FISH TOP AND BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08995,25.909417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE1</name>
+			<description>50 TONS CONCRETE PIPE BONITO AJ</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.05745,25.859033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE2</name>
+			<description>BOTTOM FISH AND drift live lines</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.072833,25.874567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE3</name>
+			<description>400 TONS OF CONCRETE PIPE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.073767,25.778717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE4</name>
+			<description>360 TONS OF CONCRETE PIPE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06805,25.85705,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPE5</name>
+			<description>360 TONS OF CONCRETE PIPE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0733,25.774367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CONCRETEPIPES</name>
+			<description>60 TONS OF CONCRETE PIPE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.091167,25.813733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>COQUINAWRECK</name>
+			<description>55 FT STEEL SHIP SCATTERED REMAINS ON BOTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.074067,25.775983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CORALBTM</name>
+			<description>BOTTOM FISH AND LIVE LINE GENERAL AREA</description>
+			<TimeStamp><when>2018-01-18T13:07:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.076347,25.731743,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>COTEREEF2</name>
+			<description>AJ SNAPPER BONITA CONCRETE MODULES TANKS</description>
+			<TimeStamp><when>2016-05-21T14:11:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07423300000001,25.775083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Crandon Marina</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.15470000000001,25.72355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CRANEBOOM</name>
+			<description>100 FOOT STEEL CRANE BOOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.078733,25.850167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CUERVO</name>
+			<snippet></snippet>
+			<description>Ä</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12820000000001,25.768867,-6.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULVERTPIPES1</name>
+			<description>COBIA AJ BONITO</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.095,25.745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULVERTS1</name>
+			<description>HAULOVER HOLE CONCRETE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07726700000001,25.8908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CULVERTS6</name>
+			<description>CONCRETE CULVERT PIPES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08417,25.88867000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CURRY</name>
+			<description>TROLL LIVE BAIT AROUND THIS 30 FT STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09343300000001,26.0108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>CURRYREEF1</name>
+			<description>30 FT STEEL BARGE WITH CRANE BOOM PIECES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09343300000001,26.0081,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DANIALEDGES</name>
+			<description>LEDGES OFF DANIA DO NOT ANCHOR</description>
+			<TimeStamp><when>2018-01-18T13:20:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09211999999999,26.062139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DANTOR</name>
+			<description>AJ COBIA 160 FT FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083167,26.009833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DEEPFREEZE</name>
+			<description>AJ COBIA KINGS BONITO 210 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.082533,25.821717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DEMAWRECK</name>
+			<description>165 FT WRECK, HOLDS BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086917,25.703633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DIVEBOATWRECK</name>
+			<description>70 FT  DIVE BOAT ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085217,25.82255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DIVOTHOLE1</name>
+			<description>FLOOR DIVOT DRIFT BOTTOM FISH</description>
+			<TimeStamp><when>2018-01-18T13:16:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.077,25.961,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DREDGEPIPE</name>
+			<description>OLD DREDGE PIPE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.049367,25.782083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>DRYDOCK1</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06367,25.80567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELIZABETH WRECK</name>
+			<description>OLD WRECK WITH GOOD TROLLING AND BOTTOM FISHING LIVE BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08559099999999,25.810373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOT PATCH4</name>
+			<description>PATCH REEF BOTTOM FISH USE CHUM</description>
+			<TimeStamp><when>2016-05-01T13:50:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.179079,25.449329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH</name>
+			<description>ELLIOT PATCH REEFS</description>
+			<TimeStamp><when>2018-01-18T13:23:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.160015,25.449756,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH1</name>
+			<description>PATCH REEF CHUM FOR SNAPPER GROUPER KINGS CERO</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.18331000000001,25.4531,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH2</name>
+			<description>PATCH REEF FOR BOTTOM FISH SNAPPER, GROUPER CHUM HEAVY</description>
+			<TimeStamp><when>2016-05-01T13:55:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.189402,25.451141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH3</name>
+			<description>PATCH REEF FOR BOTTOM FISH SNAPPER, GROUPER CHUM HEAVY</description>
+			<TimeStamp><when>2016-05-01T13:55:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.193439,25.441701,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH5</name>
+			<description>PATCH REEF FOR BOTTOM FISH SNAPPER, GROUPER CHUM HEAVY</description>
+			<TimeStamp><when>2016-05-01T13:50:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17696599999999,25.447292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ELLIOTPATCH6</name>
+			<description>PATCH REEF FOR BOTTOM FISH SNAPPER, GROUPER CHUM HEAVY</description>
+			<TimeStamp><when>2016-05-01T13:55:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.179214,25.440583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>EMMIBOGGSWRK</name>
+			<description>55 FT LCM BARGE ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093617,26.01010000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FERRYWRECK</name>
+			<description>103 FT STEEL FERRY COBIA KINGS BONITO</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06746699999999,25.687933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FIBERGLASSBOAT</name>
+			<description>40 FOOT FIBERGLASS BOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.053983,25.865433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FIREBOAT</name>
+			<description>COBIA KINGS BONITO AJ 110 FOOT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.03660000000001,25.785383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME1</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12683,25.767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME11</name>
+			<description>GOOD FOR TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12667,25.764,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME13</name>
+			<description>GOOD FOR TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.128,25.76683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME14</name>
+			<description>GOOD FOR TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.127,25.76783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME2</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12783,25.76533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME22</name>
+			<description>TROLL OR DRIFT BOTTOM FISH HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12783,25.766,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME3</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12667,25.76517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME4</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12733,25.7685,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME5</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12767,25.76467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FISHNGAME9</name>
+			<description>GOOD SPOT ON THE TROLL OR BOTTOM FISH SCATTERED GOOD BOTTOM HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12683,25.76617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FREIGHTER1</name>
+			<description>135 FT FREIGHTER ON BOTTOM AJ BONITO GROUPER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.082533,25.699833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FREIGHTER5</name>
+			<description>AJ KINGS BONITO ON 257 FT STEEL FREIGHTER. HOLDS FISH ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.065133,25.952233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FREIGHTER6</name>
+			<description>150 FT STEEL FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08995,25.909367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FREIGHTER7</name>
+			<description>85 FT FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09314999999999,26.006633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GEJAWRECK</name>
+			<description>WRECK WITH LIVE BOTTOM IN AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.010593,25.703987,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GIMROCK BARGES</name>
+			<description>195 FOOT LONG BARGE WITH SCRAP STEEL FROM ANOTHER BARGE INSIDE, DEPTH 165, CONFIRMED USING GPS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08116699999999,25.707283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GIMROCKBARGE</name>
+			<description>STEEL DECK BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.075,25.707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GIMROCKBARGE1</name>
+			<description>BONITA KINGS AJ BARGE 195 FT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08450000000001,25.8205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDEN BEACH2</name>
+			<description>1 ULTRA 4 PALLET AND 3 BAY REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09786699999999,25.962583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDENBCH8</name>
+			<description>THREE PILES OF LIMESTONE BOULDERS AND 3 CONCRETE SLABS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.097717,25.962717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDENBEACH1</name>
+			<description>5 TONS REEFBALLS VARIOUS SIZES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09795,25.962983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDENBEACH6</name>
+			<description>5 PALLET AND 5 BAY REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09795,25.962783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDENBEACH7</name>
+			<description>1 ULTRA AND 6 BAY REEFBALLS ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.098017,25.962683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLDENBEACH8</name>
+			<description>10 REEFBALLS VARIOUS SIZES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09783299999999,25.962583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GORDONPASS1</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0895,25.90958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GRADYBARGE</name>
+			<description>61 FT BARGE AND 150 TONS OF LIMESTONE HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.094067,26.01025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HALLANDALE</name>
+			<description>HALLANDALE LEDGES</description>
+			<TimeStamp><when>2018-01-18T13:21:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.073942,25.97265,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HarbourTowne</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.127825,26.058689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAULOVERCULVERTS</name>
+			<description>CONCRETE CULVERT PIPES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07733,25.89083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HAULOVERMODULES</name>
+			<description>HAULOVER MODULES ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07693,25.88955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HauloverPark</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12374,25.91684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HEMMINGWAYWRK</name>
+			<description>STEEL SAILBOAT ON BOTTOM HERE, HOLDS GOLIOATH AND AJ</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.075333,25.709533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Holland Park</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.119514,26.019972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hollywood Marina</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12154700000001,26.014231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOPPER BARGE</name>
+			<description>150 FOOT STEEL HOPPER BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.081667,25.617767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOPPERBARGE1</name>
+			<description>LARGE HOPPER BARGE HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08925000000001,25.81293300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOPPERBARGE3</name>
+			<description>175 FT STEEL HOPPER BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.047117,25.760367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOPPERBARGE4</name>
+			<description>210 FOOT HOPPER BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085033,25.702433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOSTSPOT16</name>
+			<description>SCATTERED BOTTOM NEAR REEF AREA HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12778,25.76562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOSTSPOT21</name>
+			<description>SCATTERED CORAL AND ROCK BOTTOM HOLDS BAIT AND FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.13086,25.75127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTM1</name>
+			<description>CHUM FOR SNAPPER GROUPER KINGS</description>
+			<TimeStamp><when>2016-03-14T19:35:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083466,25.858915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTM3</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<TimeStamp><when>2016-03-14T19:36:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.092609,25.870394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTM6</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<TimeStamp><when>2016-03-14T19:42:17Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.119142,25.724731,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTOM2</name>
+			<description>CHUM FOR SNAPPER GROUPER KINGS</description>
+			<TimeStamp><when>2016-03-14T19:35:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08802,25.854404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTOM7</name>
+			<description>CORAL AND ROCKY BOTTOM CHUM AND BOTTOM FISH</description>
+			<TimeStamp><when>2016-03-14T23:13:25Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.121211,25.741044,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTBOTTOM8</name>
+			<description>BOTTOM FISHING FOR MANGROVES GROUPER SNAPPER</description>
+			<TimeStamp><when>2016-03-15T00:04:09Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09788,25.704853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTDANIA</name>
+			<description>STRUCTURE HOLDS FISH</description>
+			<TimeStamp><when>2018-01-18T11:04:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.092,26.035,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTDROP3</name>
+			<description>CHUM FISH FOR SNAPPER GROUPER</description>
+			<TimeStamp><when>2016-03-14T23:29:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087757,25.739887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTHUMP</name>
+			<description>HUGE RISE HOLDS FISH TOP AND BOTTOM</description>
+			<TimeStamp><when>2018-01-18T11:01:07Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087,26.049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTLEDGE</name>
+			<description>SERIES OF MINI LEDGES EXCELLENT BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T10:59:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086,26.041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTLEDGE2</name>
+			<description>FISH EDGE OF DROP OFF FOR SAILS IN WINTER, AND BOTOM FISH YEAR ROUND</description>
+			<TimeStamp><when>2016-03-14T23:25:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086597,25.865648,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTPATCH</name>
+			<description>LEDGE CHUM BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T10:57:22Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093,26.038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT001</name>
+			<description>TROLL FOR KINGFISH BONITO CUDAS WITH LIVE  BAIT OR BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T19:32:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.104141,25.918619,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT002</name>
+			<description>TROLL FOR KINGFISH BONITO CUDAS WITH LIVE  BAIT OR BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T19:32:35Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10418,25.908683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT003</name>
+			<description>TROLL FOR KINGFISH BONITO CUDAS WITH LIVE  BAIT OR BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T19:32:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.109028,25.890369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT004</name>
+			<description>TROLL FOR KINGFISH BONITO CUDAS WITH LIVE  BAIT OR BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T19:32:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.103801,25.946225,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT008</name>
+			<description>CHUM FOR SNAPPER GROUPER KINGS BOTOM FISH</description>
+			<TimeStamp><when>2016-03-14T19:37:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08647000000001,26.015539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT009</name>
+			<description>CHUM FISHING FOR SNAPPER AND OTHER</description>
+			<TimeStamp><when>2016-03-14T19:37:38Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10767,26.011304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT010</name>
+			<description>CHUM FISH FOR BOTTOM FISH AND BAIT</description>
+			<TimeStamp><when>2016-03-14T19:37:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.106022,26.021204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT011</name>
+			<description>CHUM FISH FOR BOTTOM FISH AND BAIT</description>
+			<TimeStamp><when>2016-03-14T19:39:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089231,25.792892,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT012</name>
+			<description>CHUM FISH FOR BOTTOM FISH AND BAIT</description>
+			<TimeStamp><when>2016-03-14T19:39:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.091832,25.792179,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT013</name>
+			<description>FISH AND CHUM FOR SNAPPER AND BOTTOM OTHERS</description>
+			<TimeStamp><when>2016-03-14T19:40:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09571099999999,25.543908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT014</name>
+			<description>CHUM FOR BOTTOM FISH</description>
+			<TimeStamp><when>2016-03-14T19:41:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093892,25.56571200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT015</name>
+			<description>BOTTOM FISH AND DRIFT LIVE BAIT</description>
+			<TimeStamp><when>2016-03-14T23:31:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10391,25.654139,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT022</name>
+			<description>BOTTOM FISH FOR VARIETY CHUM HEAVY</description>
+			<TimeStamp><when>2016-03-15T00:04:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09682100000001,25.70025400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT12</name>
+			<description>SCATTERED BOTTOM NEAR REEF AREA HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08965000000001,25.81205,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT13</name>
+			<description>SCATTERED BOTTOM NEAR REEF AREA HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08119000000001,25.81614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT14</name>
+			<description>HOLDS FISH AND BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12795,25.74945,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT15</name>
+			<description>HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09108999999999,25.81118,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT16</name>
+			<description>SCATTERED BOTTOM
+
+ HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08467,25.8902,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT17</name>
+			<description>MINI LEGDES AND HOLES HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08956000000001,25.81307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT18</name>
+			<description>MINI LEGDES AND HOLES HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09050000000001,25.90819,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT19</name>
+			<description>MINI LEGDES AND HOLES HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12785,25.76617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT22</name>
+			<description>MINI LEGDES AND HOLES HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09032999999999,25.81276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT23</name>
+			<description>MINI LEGDES AND HOLES HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09072000000001,25.90865000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT24</name>
+			<description>SCATTERED BOTTOM HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12571,25.74505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT25</name>
+			<description>SCATTERED BOTTOM HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12817,25.7689,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT27</name>
+			<description>GOOD SPOT TO TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12781,25.76782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT29</name>
+			<description>GOOD SPOT TO TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0902,25.90968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT30</name>
+			<description>GOOD SPOT TO TROLL DRIFT OR BOTTOM FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12354000000001,25.75612,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT31</name>
+			<description>CHUM FOR BAIT OR TROLL OR BOTTOM FISH SCATTERED GOOD BOTTOM HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.13086,25.75214,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT32</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09083,25.80976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT33</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12339,25.75789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT34</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0843,25.82253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT35</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10278,25.75085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT41</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08947000000001,25.81318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT42</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0722,25.82535,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT45</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06837,25.80552000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT46</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0659,25.81062,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT48</name>
+			<description>BOTTOM FISH OR LIVE LINE DRIFT SCATTERED GOOD BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09050000000001,25.80967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT49</name>
+			<description>DRIFT OR BOTTOM FISH LIVE AND CUT BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09078,25.80975,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT51</name>
+			<description>DRIFT OR BOTTOM FISH LIVE AND CUT BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09117000000001,25.81293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT53</name>
+			<description>DRIFT OR BOTTOM FISH LIVE AND CUT BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08552,25.80163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT54</name>
+			<description>DRIFT OR BOTTOM FISH LIVE AND CUT BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08918,25.81292,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOTSPOT57</name>
+			<description>DRIFT OR BOTTOM FISH LIVE AND CUT BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08345,25.80303,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>HOUSEBOAT</name>
+			<description>40 FT STEEL BOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070267,25.669067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>I BEAMS</name>
+			<description>I BEAMS GIRDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0799,25.79635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JohnloydPark</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.11259699999999,26.081239,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>JOSEQUERVO</name>
+			<description>WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12820000000001,25.76887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KARLEENWRECK</name>
+			<description>WRECK INSIDE ANCHORAGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08908,25.81285,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KARLINWRK</name>
+			<snippet></snippet>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089083,25.81285,-15.54</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KINGFISH1</name>
+			<description>TOURNAMENT KINGFISH SPOT</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.124765,25.425391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>KINGFISH2</name>
+			<snippet></snippet>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12436700000001,25.42465,-6.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LAKELANDWRECK</name>
+			<description>200 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0835,25.667783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LANDINGCRAFT2</name>
+			<description>150 FT STEEL LANDING CRAFT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.04988299999999,25.784483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LANDSENDWRECKS</name>
+			<description>WRECKS ON BOTTOM HOLDS BOTTOM FISH AND BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.074067,25.77595000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LARSONBARGE</name>
+			<description>65 FT STEEL BARGE WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09083,25.81167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDBURYREEF2</name>
+			<description>CHUM FOR SNAPPER GROUPER KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09871,25.54619,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE W</name>
+			<description>LEDGE TOP EXCELLENT BOTTOM FISHING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:13:11Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.097353,26.061048,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE003</name>
+			<description>ledge for bottom fishing good</description>
+			<TimeStamp><when>2018-01-18T22:31:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.101,26.015,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE004</name>
+			<description>good coral ditch holds bottom fish chum heavy</description>
+			<TimeStamp><when>2018-01-18T22:33:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09399999999999,26.025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE005</name>
+			<description>drainage pipe with ledges around it</description>
+			<TimeStamp><when>2018-01-18T22:37:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09999999999999,26.019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE006</name>
+			<description>ledge very good</description>
+			<TimeStamp><when>2018-01-18T22:39:10Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.101,26.01,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE007</name>
+			<description>good ledge bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:40:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.096,25.999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE008</name>
+			<description>cut ledge good bottom fishing</description>
+			<TimeStamp><when>2018-01-18T22:41:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.102,25.997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE009</name>
+			<description>ledge series excellent</description>
+			<TimeStamp><when>2018-01-18T22:42:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.102,25.993,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE010</name>
+			<description>rock mound good</description>
+			<TimeStamp><when>2018-01-18T22:42:48Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.102,25.986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE011</name>
+			<description>dip ledge with mounds excellent fishing</description>
+			<TimeStamp><when>2018-01-18T22:44:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09399999999999,25.984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE012</name>
+			<description>end of the drop out ledge good fishing</description>
+			<TimeStamp><when>2018-01-18T22:45:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09399999999999,25.986,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE014</name>
+			<description>hole with ledge good bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:47:21Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10299999999999,25.974,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE015</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:49:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.092209,25.948783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE016</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:49:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09715,25.936436,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE017</name>
+			<description>LEDGE POINT EXCELLENT BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:14:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086968,26.061616,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE018</name>
+			<description>LEDGE SERIES WITH GOOD BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:14:45Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.091898,26.055579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE019</name>
+			<description>LEDGE SERIES WITH GOOD BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:16:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08644700000001,26.065429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE020</name>
+			<description>DROP LEDGE AND PATCH SUPERB FISHING</description>
+			<TimeStamp><when>2018-01-18T11:17:12Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.092,26.074,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE021</name>
+			<description>LEDGE SERIES WITH GOOD BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:18:20Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086,26.075,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE022</name>
+			<description>LEDGE GROUPER</description>
+			<TimeStamp><when>2018-01-18T11:18:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.079981,26.079291,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE023</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:49:58Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.088255,25.944026,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE024</name>
+			<description>BOTTOM FISH OR LIVE LINE FOR VARIETY TOP AND BOTTOM</description>
+			<TimeStamp><when>2018-01-18T11:19:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08347600000001,26.07439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE025</name>
+			<description>BOTTOM FISH OR LIVE LINE FOR VARIETY TOP AND BOTTOM</description>
+			<TimeStamp><when>2018-01-18T11:20:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08385300000001,26.081439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE026</name>
+			<description>MINI LEDGES GOOD BOTTOM FISHING</description>
+			<TimeStamp><when>2018-01-18T11:45:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08,26.077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE027</name>
+			<description>ROCKY LEDGES GOOD BOTTOM</description>
+			<TimeStamp><when>2018-01-18T11:46:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08,26.076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE028</name>
+			<description>DRIFT OR BOTTOM FISH ALONG LEDGE SLOPE</description>
+			<TimeStamp><when>2018-01-18T12:48:43Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.074263,26.06506600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE029</name>
+			<description>DEEP SLOPING LEDGE DRIFT BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T12:49:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.080669,26.060772,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE030</name>
+			<description>DRIFT BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T12:51:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085284,26.08562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE031</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:50:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.088379,25.95445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE032</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:50:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09863300000001,25.958498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE033</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:50:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087788,25.931449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE034</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:51:04Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087682,25.922861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE035</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:51:31Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.105696,25.928282,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE036</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:52:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.100495,25.888684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE038</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:53:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.099277,25.870858,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE039</name>
+			<description>ledge series snapper grouper and other bottom fish</description>
+			<TimeStamp><when>2018-01-18T22:53:51Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.102242,25.868256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE043</name>
+			<description>NICE LEDGE HOLDS FISH</description>
+			<TimeStamp><when>2018-01-18T13:12:57Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.075,25.977,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE044</name>
+			<description>GOOD PLATEAU LEDGE HOLDS BOTTOM FISH</description>
+			<TimeStamp><when>2018-01-18T13:14:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.057,25.978,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGE045</name>
+			<description>DIP AND MINI LEDGE GOOD FISHING</description>
+			<TimeStamp><when>2018-01-18T13:15:05Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.066,25.972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEDGEPOINT</name>
+			<description>BAIT AND FISH EDGE OF THE CORAL POINT</description>
+			<TimeStamp><when>2018-01-18T10:02:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.10815,25.752283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LegionPark</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.180311,25.835367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LEON&apos;SBARGE</name>
+			<description>100 FOOT BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.072867,25.778033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIBERTYSHIP</name>
+			<description>450 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.043233,25.85635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIMEBOULDERS1</name>
+			<description>LIMESTONE BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.133883,25.907217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIMESTONEBTM1</name>
+			<description>ROCK LIMESTONE BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08933,25.813,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIMESTONEDUMP</name>
+			<description>LIMESTONE WRECKS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12943300000001,25.948333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTOM 45</name>
+			<description>SCATTERED GOOD BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12170999999999,25.634546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM 11</name>
+			<description>SCATTERED LIVE BOTTOM GOOD FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08976800000001,25.778707,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM 22</name>
+			<description>LIVE BOTTOM AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.049767,25.783709,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM 23</name>
+			<description>SMALL AREA OF LIVE BOTTOM  HOLDS BAIT ON FLOOD TIDE</description>
+			<TimeStamp><when>2012-10-02T14:14:29Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12269000000001,25.768862,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM 233</name>
+			<description>BOTTOM FISHING AND TROLLING</description>
+			<TimeStamp><when>2012-10-02T14:26:02Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.14116,25.524375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVE BOTTOM 39</name>
+			<description>SCATTERED GOOD LIVE BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.083336,25.7,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LIVEBOTTOM34</name>
+			<description>LIVE BOTTOM AND ROCKS</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.104131,25.789955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LONGREEF</name>
+			<snippet></snippet>
+			<description>ò tp://www.divespots.com/scuba/spotID-16/view.divespot</description>
+			<TimeStamp><when>2016-05-21T14:08:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12000000000001,25.44383300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LUGANAWRK</name>
+			<description>OLD WRECK REMAINS</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.119761,25.44372,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>M BOTTOM1</name>
+			<description>CHUM BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T10:05:38Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085489,25.773058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>M BOTTOM2</name>
+			<description>CHUM BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T10:07:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085965,25.785853,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>M BOTTOM3</name>
+			<description>CHUM BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T10:07:56Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085807,25.790538,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>M PATCH8</name>
+			<description>SMALL PATCH CHUM BOTTOM FISH AND LIVE LINE</description>
+			<TimeStamp><when>2018-01-18T10:45:06Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.113,25.801,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MANDALAYWRK</name>
+			<description>OLD WRECK REMAINS</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.121432,25.44372,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIAMI PATCH1</name>
+			<description>NORTH MIAMI PATCH REEF AREA</description>
+			<TimeStamp><when>2018-01-18T13:22:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.107625,25.860925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIAMISPIRIT</name>
+			<snippet></snippet>
+			<description>ÿÿtp://www.divespots.com/scuba/spotID-11/view.divespot</description>
+			<TimeStamp><when>2016-05-21T03:37:28Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087,25.698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIGUANA FREIGHTER</name>
+			<description>100 FT FREIGHTER SEIZED BY US CUSTOMS, ONE OF THREE SUNK THIS DAY, DEPTH 138, CONFIRMED USING DGPS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0827,25.699383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIMIVAWRECK</name>
+			<description>WRECK AND LIVE BOTTOM OUTCROPPINGS IN DEEP WATER</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.049767,25.383723,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINE SWEEPER</name>
+			<description>177 FT WOOD NAVAL MINE SWEEPER, DEPTH 180, CONFIRMED USING LORAN</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.05289999999999,25.80675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINESWEEPER1</name>
+			<description>OLD MINE SWEEPER WRECK ON BOTTOM, DRIFT LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08207,25.83597,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINI LEDGES</name>
+			<description>MINI LEDGES SUPERB FISHING TOP AND BOTTOM</description>
+			<TimeStamp><when>2018-01-18T11:02:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086,26.03600000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINI LEDGES1</name>
+			<description>SERIES OF MINI LEDGES EXCELLENT BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:08:40Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086,26.05,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MINILEDGE2</name>
+			<description>LEDGE AND EXCELLENT BOTTOM FISHING TROLLING LIVE LINING</description>
+			<TimeStamp><when>2018-01-18T11:09:50Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09099999999999,26.057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIRACLES EXPRESS</name>
+			<description>100 FOOT STEEL SHIP MIRACLES EXPRESS&apos; &quot;</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.072633,25.6699,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MISS DANIA BEACH</name>
+			<description>126 FT FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0917,26.010083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MISS LUCY</name>
+			<description>40 FT STEEL TUGBOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.076217,25.688883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MISSKARLLINE</name>
+			<description>85 FT SHIP MISS KARLINE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.072233,25.779533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MITIGATIONREEF1</name>
+			<description>40 MOSTKOFF MODULES ON BOTTOM, HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089767,25.907867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MITIGATIONREEF2</name>
+			<description>120K TONS OF LIMESTONE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.096,25.75085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MIXING DRUMS</name>
+			<description>20 STEEL CONCRETE MIXING DRUMS, DEPTH 84 FT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070517,25.6673,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MOBY ONE</name>
+			<description>75 FOOT WOODEN SHRIMP BOAT THE MOBY ONE, DEPTH 97, RELIEF 11</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.081667,25.623333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MODULESREEF</name>
+			<description>176 DERM CONCRETE MODULES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089883,25.90275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Morningside Park</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17846,25.82324,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MWBARGEWRECK</name>
+			<description>WRECK INSUDE ANCHIRAGE AREA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07338,25.811,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>MYSTIC ISLE</name>
+			<description>PERMIT AJ COBIA WRECK AND LIVE BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08087500000001,25.710929,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NARWALWRK</name>
+			<snippet></snippet>
+			<description>Z</description>
+			<TimeStamp><when>2016-05-21T03:56:55Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08425,25.9106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NAVYTUG</name>
+			<description>120 NAVY STEEL TUGBOAT C-ONE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09010000000001,25.908717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NEPTUNEREEF</name>
+			<description>1000 TONS BRONZE AND CONCRETE SCULPTURES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089967,25.700583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NORMANDY</name>
+			<description>SCATTERED BOTTOM</description>
+			<TimeStamp><when>2012-10-02T14:28:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.050163,25.8498,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NORMANDY WRECK</name>
+			<description>WRECK</description>
+			<TimeStamp><when>2012-10-02T14:27:47Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08295099999999,25.833664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NSWCARRAYS</name>
+			<description>STEEL ARRAYS AND SCRAP PIECES</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093733,26.010017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>OLDBUOY</name>
+			<description>PHINS AND OTHER PELAGICS ON AND NEAR</description>
+			<TimeStamp><when>2018-01-18T12:56:46Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06284599999999,26.048091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>OLDWRECK2</name>
+			<description>old wreck remains on bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07167,25.9,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>OLDWRECK5</name>
+			<description>old wreck in general area btm fish drift troll</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08998,25.81204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>OLDWRECK8</name>
+			<description>old wreck in general area holds fish btm fish drift troll</description>
+			<TimeStamp><when>2016-05-21T00:49:34Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.078383,25.902567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ORIONWRECK</name>
+			<description>WRECK IN 1OO FT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086333,25.691,-28.96</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PARKERBARGE</name>
+			<description>AJ AND BONITO 120 FEET DECK BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087217,25.697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PASCBARGE</name>
+			<description>STEEL DECK BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08161699999999,25.818667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF1</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17197,25.38814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF10</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.18117,25.45773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF11</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<TimeStamp><when>2016-05-01T13:51:03Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.169292,25.4467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF12</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17521000000001,25.3905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF13</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.11386,25.55287,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF14</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17228,25.45507,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF15</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.11346,25.55364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF16</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17204,25.3904,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF17</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17504,25.38911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF18</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17444999999999,25.3898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF19</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17165,25.38925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF2</name>
+			<description>patch reef, bottom fishing with cut bait, chum heavily, fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.19011,25.42839,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF20</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17287,25.38976,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF21</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17677999999999,25.38934,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF22</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17318,25.39011,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF23</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17364000000001,25.38898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF25</name>
+			<description>ANCHOR AND CHUM FOR SNAPPER, GROUPER, KINGS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.1724,25.38877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF3</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17581,25.39106,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF4</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17109000000001,25.39055,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF5</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17391000000001,25.39064,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF6</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<TimeStamp><when>2016-05-01T13:55:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.188439,25.436422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF7</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<TimeStamp><when>2016-05-01T13:50:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17044199999999,25.443875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF8</name>
+			<description>patch reef bottom fishing with cut bait chum fish top and bottom</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.17358,25.39054000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATCHREEF9</name>
+			<description>reef patch chum heavily fish with squid cutbait sliverides shrimp live baits</description>
+			<TimeStamp><when>2016-05-01T13:51:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.169399,25.440545,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PATRICIAWRECK</name>
+			<description>65 FT STEEL TUG GOOD</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.078,25.804617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PelicanHarbor</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.16805600000001,25.847494,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLEUGERREEF1</name>
+			<description>reef area good for bottom fishing or trolling/drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08566999999999,25.83488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGEREEF2</name>
+			<description>reef area good for bottom fishing or trolling/drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09350000000001,25.82023,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGEREEF4</name>
+			<description>reef area good for bottom fishing or trolling/drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08257,25.82133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGEREEF7</name>
+			<description>reef area good for bottom fishing or trolling/drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08499999999999,25.82203,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGERREEF1</name>
+			<description>110 FT WRECK ON PFLUGER REEF</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08437000000001,25.82057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGERREEF2</name>
+			<description>135 FT WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08247,25.8217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PFLUEGERREEF3</name>
+			<description>GOOD SCATTERED BOTTOM FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.06095000000001,25.80785,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PHINS 1</name>
+			<description>NEAR FULL MOON DOLPHIN OFTEN FOUND IN GENERAL AREA</description>
+			<TimeStamp><when>2018-01-18T12:54:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.05294499999999,26.086546,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PHINS2</name>
+			<description>DOPLPHIN NEAR FULL MOON</description>
+			<TimeStamp><when>2018-01-18T12:55:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.04465,26.059512,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PHINS3</name>
+			<description>GOOD AREA TO LOOK FOR DOLPHIN</description>
+			<TimeStamp><when>2018-01-18T13:06:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.01013,25.727767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PINNACLE 3</name>
+			<description>PINNACLE CHECK FOR BOTTOM FISH GOOD</description>
+			<TimeStamp><when>2018-01-18T13:18:41Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086,25.937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>POLAR WRECK</name>
+			<description>WRECK AND SOME LIVE BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.116428,25.717049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>POLICEBARGE</name>
+			<description>POLICE BARGE WRECK ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09116,25.81367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PONTOONDOCKS</name>
+			<description>STEEL PONTOON DRY DOCKS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0441,25.778083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PROTEUSWRECK</name>
+			<description>220 FT STEEL SHIP ON BOTTOM DRIFT SPEED JIG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087333,25.705467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RADIOPYRAMIDS</name>
+			<description>RADIO TOWER SECTIONS AND PILES</description>
+			<TimeStamp><when>2016-05-21T03:46:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089383,25.812383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RADIOSPOT</name>
+			<snippet></snippet>
+			<description>z</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089433,25.81235,-15.24</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RADIOTOWERS</name>
+			<description>19 PCS OF 20 FT LONG RADIO TOWER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08975,25.8113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RAYCHELWRECK</name>
+			<description>164 SHIP ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07938300000001,25.8202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REEFBALLS1</name>
+			<description>9 TONS ULTRABALLS HOLDS BAIT AND FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0979,25.9624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REEFBALLS2</name>
+			<description>3 TONS REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.133483,25.907317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REEFBALLS8</name>
+			<description>THREE SETS OF REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.13333299999999,25.906417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REEFBALLS9</name>
+			<description>4 TONS 6 BAY REEFBALLS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09784999999999,25.962617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REEFLIVE</name>
+			<description>REEF AND LIVE BOTTOM AREA</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.103098,25.537049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>REXBEARWRECK</name>
+			<description>REX BEAR WRECK GOLIATH GROUPER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07721700000001,25.708033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RICK PILES BOTTOM</name>
+			<description>ROCKY LIVE BOTTOM</description>
+			<TimeStamp><when>2012-10-02T14:22:19Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.088362,25.798355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RIOMIAMIWRK</name>
+			<description>RIO MIAMI WRECK</description>
+			<TimeStamp><when>2016-05-21T03:50:52Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0872,25.702767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK BOTTOM 44</name>
+			<description>ROCKY LIVE BOTTOM</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.090001,25.796664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCK PILE 12</name>
+			<description>ROCK PILE WITH LIVE BOTTOM NEAR</description>
+			<TimeStamp><when>2012-10-02T14:13:36Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09994500000001,25.721655,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROCKY ROADS</name>
+			<description>SERIES OF LIVE BOTTOM AND OUTCROPPINGS SMALL LEDGE</description>
+			<TimeStamp><when>2012-10-02T14:12:49Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087892,25.729542,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ROSSMERRYWRK</name>
+			<description>200 FT LONG STEEL SHIP. HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08499999999999,25.90417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAIL RIPS</name>
+			<description>RIPS AND BREAKS -GOOD TROLLING FOR PELAGICS</description>
+			<TimeStamp><when>2012-10-02T14:28:44Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08766799999999,25.876517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILFISH 001</name>
+			<description>SAILS AND KINGS</description>
+			<TimeStamp><when>2012-10-02T14:21:01Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089589,25.653235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILFISH 223</name>
+			<description>SAILS AND KINGS</description>
+			<TimeStamp><when>2012-10-02T14:38:30Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.095164,25.551123,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILFISH3</name>
+			<description>WINTER SAILFISH CHASING BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T23:46:23Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08367699999999,25.58119900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILFISH4</name>
+			<description>WINTER SAILFISH CHASING BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T23:47:25Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.089698,25.605758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILFISH6</name>
+			<description>WINTER SAILFISH CHASING BALLYHOO</description>
+			<TimeStamp><when>2016-03-14T23:47:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085251,25.643058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILS KINGS 22</name>
+			<description>SAILFISH AND KINGS</description>
+			<TimeStamp><when>2012-10-02T14:21:14Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08750000000001,25.670338,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SAILSKINGS 32</name>
+			<description>SAILS AND KINGFISH</description>
+			<TimeStamp><when>2012-10-02T14:21:39Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.088504,25.725091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SANRAPHAELWRK</name>
+			<description>200 FOOT STEEL SHIP HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.068067,25.8302,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SCRAPILE2</name>
+			<description>SCRAP META STTEL FROM CRANE BOOMS</description>
+			<TimeStamp><when>2016-05-21T03:48:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.075564,25.822255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SHAMROCKWRK</name>
+			<description>120 STEEL SHIP HOLDS FISH TOP AND BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07338300000001,25.773433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SHERI-LYNWRECK</name>
+			<description>235 ft STEEL SHIP MARKS UP 12 FT HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07038300000001,25.668167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SHIPWRECK1</name>
+			<description>138 FT SHIP ON BOTTOM BTM FISH AND TROLL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07514999999999,25.709133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SITE EBARGES</name>
+			<description>2 STEEL BARGES SANK HERE HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093717,26.00765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SITE EPALLET</name>
+			<description>12 BALLS ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093667,26.00765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SMZBUOYREEF1</name>
+			<description>PILES OF 3 TO 6 FOOT BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09195,25.688617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SMZBUOYREEF2</name>
+			<description>PILES OF 3 TO 6 FOOT BOULDERS</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.091967,25.700283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH 32</name>
+			<description>LIVE BOTTOM AND CORAL</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09477099999999,25.560379,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH BASIN WRECK</name>
+			<description>WRECK AND LIVE BOTTOM ATTACHED</description>
+			<TimeStamp><when>2012-10-02T14:29:59Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086384,25.698738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPOTSAVAILABLE</name>
+			<description>DEEP DROP FISHING SPOTS AND SWORDFISH SPOTS AVAILABLE CONTACT US FOR INFO</description>
+			<TimeStamp><when>2018-01-18T12:59:10Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-79.970067,26.075313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPOTSAVAILABLE1</name>
+			<description>DEEP DROP FISHING SPOTS AND SWORDFISH SPOTS AVAILABLE CONTACT US FOR INFO</description>
+			<TimeStamp><when>2018-01-18T13:02:13Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-79.976685,25.996812,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPOTSAVAILABLE2</name>
+			<description>DEEP DROP FISHING SPOTS AND SWORDFISH SPOTS AVAILABLE CONTACT US FOR INFO</description>
+			<TimeStamp><when>2018-01-18T13:03:33Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-79.972979,25.933562,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPOTSAVAILABLE3</name>
+			<description>DEEP DROP FISHING SPOTS AND SWORDFISH SPOTS AVAILABLE CONTACT US FOR INFO</description>
+			<TimeStamp><when>2018-01-18T13:03:53Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-79.978627,25.854915,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SPOTSAVAILABLE4</name>
+			<description>DEEP DROP FISHING SPOTS AND SWORDFISH SPOTS AVAILABLE CONTACT US FOR INFO</description>
+			<TimeStamp><when>2018-01-18T13:04:54Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-79.96609599999999,25.68548,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STANNEWRK</name>
+			<snippet></snippet>
+			<description></description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09051700000001,25.6177,-20.73</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STARREEFTROLL</name>
+			<description>STAR REEF FISHING AREA, MAHI</description>
+			<TimeStamp><when>2012-10-02T14:37:37Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086111,25.530085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STARTREKWRECK</name>
+			<description>200 FT STEEL SHIP HOLDS AJ GOLIATH BONITA SPEED JIG LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07755,25.70003300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBARGE3</name>
+			<description>100 STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.12855,25.948983,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBARGE4</name>
+			<description>STEEL DECK BARGE W/3 PILINGS HOLDS AJ BONITO AND OTHER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.084383,25.822667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBARGE8</name>
+			<description>75 FT STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.091167,25.813667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBARGE9</name>
+			<description>75 FT BARGE ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09367,25.81367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBOAT1</name>
+			<description>BOTTOM FISHING ON 70 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.071983,25.77735,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBOAT2</name>
+			<description>57 FOOT STEEL HULL</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07553299999999,25.780067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELBOAT4</name>
+			<description>40 FT STEEL BOAT ON BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.071517,25.663033,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELFREIGHTER3</name>
+			<description>HOLDS AJ GOLIATH BONITA SPEED JIG LIVE BAIT 205 FT STEEL FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08580000000001,25.705767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELHULLWRK</name>
+			<description>80 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.056833,25.779783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP1</name>
+			<description>AJ GOLIATH COBIA STEEL FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08150000000001,25.81625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP2</name>
+			<description>120 FT STEEL SHIP HOLDS FISHSPEED JIG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08246699999999,25.821683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP3</name>
+			<description>SPEED JIG OE LIVE BAIT BOTTOM FISH 176 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070283,25.665067,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP4</name>
+			<description>HOLDS PERMIT AJ GOLIATH BONITA SPEED JIG LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.085433,25.8937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP5</name>
+			<description>110 FT  STEEL SHIP WEST END HOLDS FISH</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.049117,25.7909,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIP6</name>
+			<description>HOLDS AJ PERMIT BONITA SPEED JIG LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07081700000001,25.680517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELSHIPWREK</name>
+			<description>195 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.093717,25.904217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTANKS</name>
+			<description>236 TONS OF CONCRETE PIPE AND 30 STEEL TANKS AJ BONITA</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.079883,25.792367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUG1</name>
+			<description>100 FT STEEL TUG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087333,25.695833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUG2</name>
+			<description>38 FT STEEL TUG BOTTOM FISHING</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09010000000001,25.908767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUG3</name>
+			<description>HOLDS FISH 90 FT STEEL TUG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087667,25.695967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUG4</name>
+			<description>85 FT STEEL TUG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.087,25.695833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUG7</name>
+			<description>HOLDS AJ GOLIATH BONITA SPEED JIG LIVE BAIT 105 FT STEEL TUG</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.0872,25.702767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STEELTUGS</name>
+			<description>250 FT WRECK BONITA AJ SOME GROUPER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.070283,25.6651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STHENRYWRECK</name>
+			<description>120 FT STEEL FREIGHTER</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08498299999999,25.822017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>STRETCH25</name>
+			<description>TROLL STRETCH 20 25 FOR GROUPER</description>
+			<TimeStamp><when>2018-01-18T14:04:15Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.108751,25.72296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLECULV</name>
+			<description>SUNNY ISLE PIPE ON BOTTOM HERE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08995,25.90942,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLEREEF</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08425,25.91072000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES1</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09054999999999,25.87833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES2</name>
+			<description>MODULES CONCRETE STRUCTURE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08983000000001,25.90783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES3</name>
+			<description>reef area good for bottom fishing or trolling drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08965000000001,25.90875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES5</name>
+			<description>80 MODULES OF THREE TYPES M2, RR AND D</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08966700000001,25.9085,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES6</name>
+			<description>CONCRETE MODULES ON BOTTOM HERE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08977,25.90787,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SUNNYISLES7</name>
+			<description>reef area good for bottom fishing or trolling/drfiting live bait</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08138,25.90797,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>SYLVIAWRECK</name>
+			<description>WRECK OR WRECK REMAINS GOOD FISHING BONITA AJ</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.133101,25.36705900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TACOMAWRK</name>
+			<description>OLD WRECK SCATTERED REMAINS</description>
+			<TimeStamp><when>2016-05-21T00:42:16Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08448300000001,25.7002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TENNECOTOWERS1</name>
+			<description>2 JACKET STRUCTURES IN190 FT GROUPER AJ</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.079967,25.9815,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TENNECOTOWERS2</name>
+			<description>3 PLATFORM STRUCTURES IN 110 FT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.08499999999999,25.982533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TIMALLENREEF</name>
+			<description>80 FT STEEL BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09050000000001,25.90833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TIMOTHYA REEF</name>
+			<description>80 FEET BARGE</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.090467,25.9084,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TORTUGAWRECK</name>
+			<description>165 FEET LONG STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.084767,25.8209,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TOWERSBARGE</name>
+			<description>old wreck in general area holds fish</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09022,25.81288,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TUGWRECK1</name>
+			<description>STEEL NAVY TUG WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09007,25.90917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ULTRAFREEZE</name>
+			<description>195 FT STEEL SHIP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.086917,25.62901700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UNTATA85</name>
+			<description>WRECK OR WRECK REMAINS GOOD FOR TROLLING OR SCATTERED BOTTOM FISHING</description>
+			<TimeStamp><when>2000-01-01T05:00:00Z</when>
+</TimeStamp>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.03310399999999,25.583714,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WALKEQWRECK</name>
+			<description>200 FT STEEL FREIGHTER IN 290 FT SPEED JIGS LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.081667,25.8261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WATERTOWER</name>
+			<description>65 FT TALL WATER TOWER ON STEEL BARGE HOLDS FISH TOP AND BOTTOM</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.080533,25.82505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WatsoPark</name>
+			<description>BOAT RAMP</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.172472,25.783639,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WHITETUGWRECK</name>
+			<description>SOME REAMAINS TROLL OR DRIFT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.09010000000001,25.90877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WOODBOAT1</name>
+			<description>35 FT WOOD BOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.053983,25.8654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WOODBOAT2</name>
+			<description>30 FT WOOD BOAT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.053483,25.875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WOODBOAT4</name>
+			<description>OLD WOOD WRECK</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.054,25.875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKAREA1</name>
+			<description>SCATTERED PORTIONS A LITTLE LIVE BOTTOM TROLL DRIFT LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07702999999999,25.83409,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKAREA2</name>
+			<description>SCATTEREDLIVE BOTTOM TROLL DRIFT LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.05126,25.81691,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>WRECKAREA3</name>
+			<description>LIVE BOTTOM TROLL DRIFT LIVE BAIT</description>
+			<styleUrl>#waypoint</styleUrl>
+			<Point>
+				<coordinates>-80.07623,25.80486,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
