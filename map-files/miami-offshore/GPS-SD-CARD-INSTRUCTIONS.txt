@@ -1,0 +1,431 @@
+================================================================================
+      FLORIDAFISHINGMAPS.COM - GPS SD CARD LOADING INSTRUCTIONS
+================================================================================
+
+This guide covers the specific process of loading your GPS fishing spots
+onto your chartplotter using an SD card. This is the most reliable and
+universal method for getting waypoints onto your unit.
+
+  Email:   support@floridafishingmaps.com
+  Website: www.floridafishingmaps.com
+
+================================================================================
+                        TABLE OF CONTENTS
+================================================================================
+
+  1. Before You Start -- What You Need
+  2. Formatting Your SD Card (Critical Step)
+  3. Garmin SD Card Loading
+  4. Lowrance SD Card Loading
+  5. Humminbird SD Card Loading
+  6. Simrad SD Card Loading
+  7. Raymarine SD Card Loading
+  8. Backup Your Existing Waypoints
+  9. Card Size and Brand Recommendations
+  10. Common Mistakes to Avoid
+
+================================================================================
+  1. BEFORE YOU START -- WHAT YOU NEED
+================================================================================
+
+Gather these items before starting:
+
+  [ ] MicroSD card (2GB to 32GB recommended -- see Section 9)
+  [ ] MicroSD to SD adapter (if your computer uses full-size SD slot)
+  [ ] MicroSD card reader (USB or built-in on your computer)
+  [ ] Your downloaded GPS files from FloridaFishingMaps.com
+  [ ] Your chartplotter's user manual (for reference)
+
+IMPORTANT: Do NOT use the SD card that came with your chartplotter if it
+contains map data (Navionics, C-MAP, LakeMaster, etc.). Use a SEPARATE card
+for importing waypoints. You do not want to accidentally format a card with
+your expensive map chip on it.
+
+================================================================================
+  2. FORMATTING YOUR SD CARD (CRITICAL STEP)
+================================================================================
+
+Most marine electronics ONLY read FAT32-formatted cards. This is the single
+most common reason for "card not recognized" errors.
+
+*** WARNING: FORMATTING ERASES ALL DATA ON THE CARD. ***
+*** BACK UP ANY EXISTING DATA BEFORE FORMATTING.     ***
+
+WINDOWS:
+  1. Insert the SD card into your computer.
+  2. Open File Explorer and right-click on the SD card drive.
+  3. Select "Format."
+  4. Set File System to "FAT32."
+     - NOTE: Windows will not show FAT32 as an option for cards larger
+       than 32GB. If your card is 64GB or larger, use the free tool
+       "FAT32 Format" (guiformat.com) or "Rufus" to force FAT32.
+  5. Set Allocation Unit Size to "Default."
+  6. Check "Quick Format."
+  7. Click "Start."
+
+MAC:
+  1. Insert the SD card into your computer.
+  2. Open Disk Utility (Applications > Utilities > Disk Utility).
+  3. Select the SD card from the left panel.
+  4. Click "Erase."
+  5. Set Format to "MS-DOS (FAT)" -- this is Mac's label for FAT32.
+  6. Set Scheme to "Master Boot Record."
+  7. Click "Erase."
+
+IMPORTANT NOTES ON FORMATTING:
+  - exFAT will NOT work on most marine electronics. Use FAT32.
+  - NTFS will NOT work on any marine electronics. Use FAT32.
+  - APFS (Mac) will NOT work. Use MS-DOS (FAT).
+  - If your card was previously used in a camera or phone, it may be in a
+    format that your chartplotter cannot read. Always reformat before use.
+
+================================================================================
+  3. GARMIN SD CARD LOADING
+================================================================================
+
+Compatible Units: GPSMAP 7x2/9x2/10x2/12x2/16x2, ECHOMAP UHD/UHD2,
+ECHOMAP Plus, GPSMAP 8400/8600 series, GPSMAP 1x4x series.
+
+STEP-BY-STEP:
+
+  1. Format your SD card as FAT32 (see Section 2).
+
+  2. Insert the formatted card into your computer.
+
+  3. Open the SD card in File Explorer (Windows) or Finder (Mac).
+
+  4. Create a folder structure on the card:
+       SD Card Root/
+         Garmin/
+           GPX/
+
+  5. Copy your .GPX file(s) into the "GPX" folder.
+     The folder path should read: [SD Card]/Garmin/GPX/yourfile.gpx
+
+  6. Safely eject the SD card from your computer.
+     - Windows: Right-click the drive > "Eject"
+     - Mac: Drag the card icon to the trash, or click the eject icon
+
+  7. Insert the SD card into your Garmin chartplotter.
+     - Most Garmin units have two card slots on the front or side.
+     - Either slot works for data import.
+
+  8. Power on the Garmin unit.
+
+  9. Navigate to: Info > User Data > Data Transfer > Import from Card.
+     - On newer GPSMAP units: NavInfo > Manage Data > Data Transfer.
+
+  10. Select the SD card slot where you inserted the card.
+
+  11. Select "Import Waypoints" or "Import All" depending on your preference.
+
+  12. Select the .GPX file from the list.
+
+  13. Confirm the import. Wait for the progress bar to complete.
+
+  14. Your spots are now saved to internal memory. Navigate to your chart
+      view and you should see the waypoint markers.
+
+GARMIN-SPECIFIC NOTES:
+  - After import, waypoints are stored in internal memory. The SD card can
+    be removed.
+  - To verify: go to Info > User Data > Waypoints. You should see your
+    imported spots listed.
+  - Use "Edit Waypoint" to change colors or icons for easier identification.
+  - The folder MUST be named "Garmin" with a capital G. Lowercase will not
+    be recognized on some models.
+
+================================================================================
+  4. LOWRANCE SD CARD LOADING
+================================================================================
+
+Compatible Units: HDS Live, HDS Carbon, HDS Gen3/Gen2, Elite Ti2,
+Elite FS, Hook Reveal, Hook2.
+
+STEP-BY-STEP:
+
+  1. Format your SD card as FAT32 (see Section 2).
+
+  2. Insert the formatted card into your computer.
+
+  3. Copy the .GPX file(s) directly to the ROOT of the SD card.
+     No special folder structure is needed for Lowrance.
+     The path should be: [SD Card]/yourfile.gpx
+
+  4. Safely eject the SD card.
+
+  5. Insert the card into your Lowrance unit.
+     - HDS Live/Carbon: card slot is on the front behind the rubber door.
+     - Hook/Elite: card slot location varies; check your manual.
+
+  6. Power on the unit.
+
+  7. For HDS Live / HDS Carbon:
+       a. Press the "Files" key on the home screen.
+       b. Navigate to your SD card.
+       c. Select the .GPX file.
+       d. Choose "Import" when prompted.
+
+  8. For Elite Ti2 / Hook Reveal:
+       a. Navigate to: Settings > Navigation > Waypoints.
+       b. Select "Import from Card."
+       c. Choose the .GPX file.
+
+  9. For older HDS Gen2/Gen3:
+       a. Navigate to: Files > My Card.
+       b. Browse to the GPX file.
+       c. Select "View" or "Import."
+
+  10. Wait for import to complete. A confirmation message will appear.
+
+LOWRANCE-SPECIFIC NOTES:
+  - Lowrance saves waypoints as "User Points" in internal memory.
+  - To verify: check Waypoints in the Navigation menu.
+  - If your unit says "unsupported file format," make sure you are running
+    the latest firmware. Update at lowrance.com.
+  - Hook2 units: these have limited waypoint capacity (typically 3,000).
+    If you have a large spot package, prioritize the areas you fish most.
+
+================================================================================
+  5. HUMMINBIRD SD CARD LOADING
+================================================================================
+
+Compatible Units: HELIX 5/7/8/9/10/12/15, SOLIX 10/12/15, APEX series.
+
+STEP-BY-STEP:
+
+  1. Format your SD card as FAT32 (see Section 2).
+
+  2. Insert the formatted card into your computer.
+
+  3. Copy the .GPX file(s) to the ROOT of the SD card.
+     Path: [SD Card]/yourfile.gpx
+
+  4. Safely eject the SD card.
+
+  5. Insert the card into your Humminbird unit.
+
+  6. Power on the unit.
+
+  7. For HELIX 7 and newer (with GPX support):
+       a. Press the MENU key twice to access the main menu.
+       b. Navigate to: Nav > Waypoints Management > Import.
+       c. Select "SD Card" as the source.
+       d. Choose the .GPX file.
+       e. Confirm the import.
+
+  8. For SOLIX series:
+       a. Tap the chart screen.
+       b. Navigate to: Chart Menu > Waypoints > Import.
+       c. Select the SD card and choose your file.
+
+  9. For HELIX 5 and older units (NO native GPX support):
+       a. You must first convert GPX to Humminbird's .HWR format.
+       b. Download HumminbirdPC from humminbird.com (free).
+       c. Open HumminbirdPC and import the GPX file.
+       d. Export as .HWR format to the SD card.
+       e. Insert the card and import using the Nav menu.
+
+  10. Wait for import confirmation.
+
+HUMMINBIRD-SPECIFIC NOTES:
+  - HELIX 5 units DO NOT support GPX natively. You must convert to HWR.
+  - SOLIX units support drag-and-drop when connected via Ethernet to a PC.
+  - If you get a "file error," check that the GPX file name does not contain
+    special characters. Rename to something simple like "spots.gpx."
+  - Humminbird has a waypoint limit per unit. HELIX 7+ supports 5,000+.
+    HELIX 5 supports around 2,500.
+
+================================================================================
+  6. SIMRAD SD CARD LOADING
+================================================================================
+
+Compatible Units: NSS evo3/evo3S, NSX 3007/3009/3012, GO5/GO7/GO9/GO12,
+Cruise series.
+
+STEP-BY-STEP:
+
+  1. Format your SD card as FAT32 (see Section 2).
+
+  2. Insert the formatted card into your computer.
+
+  3. Copy the .GPX file(s) to the ROOT of the SD card.
+
+  4. Safely eject the SD card.
+
+  5. Insert the card into your Simrad unit.
+
+  6. Power on the unit.
+
+  7. For NSS evo3 / evo3S:
+       a. Press the "Home" button.
+       b. Navigate to: Settings > Waypoints > Import.
+       c. Select the SD card source.
+       d. Choose the .GPX file and confirm.
+
+  8. For NSX series:
+       a. Open the "Data" menu from the home screen.
+       b. Select "Import from Card."
+       c. Choose the GPX file.
+
+  9. For GO series / Cruise:
+       a. Navigate to: Files > SD Card.
+       b. Select the GPX file and choose "Import."
+
+  10. Wait for the import to finish.
+
+SIMRAD-SPECIFIC NOTES:
+  - Simrad and Lowrance are both Navico products. The import process is
+    very similar between brands.
+  - NSX runs a different OS than NSS. If instructions for one don't work,
+    check the other set of steps above.
+  - Simrad Cruise units have the most limited import options. If the unit
+    does not recognize your file, update firmware first.
+
+================================================================================
+  7. RAYMARINE SD CARD LOADING
+================================================================================
+
+Compatible Units: Axiom, Axiom+, Axiom Pro, Axiom XL, Element, Element HV,
+Element S, eS series, a series.
+
+STEP-BY-STEP:
+
+  1. Format your SD card as FAT32 (see Section 2).
+
+  2. Insert the formatted card into your computer.
+
+  3. Copy the .GPX file(s) to the ROOT of the SD card or into a folder
+     named "Raymarine" on the card.
+
+  4. Safely eject the SD card.
+
+  5. Insert the card into your Raymarine unit.
+
+  6. Power on the unit.
+
+  7. For Axiom / Axiom+ / Axiom Pro (LightHouse 4):
+       a. Tap the screen and swipe down to access the app drawer.
+       b. Open "My Data."
+       c. Tap "Import/Export."
+       d. Select "Import from Card."
+       e. Browse to the GPX file and select it.
+       f. Choose "Import Waypoints" and confirm.
+
+  8. For Element / Element HV (LightHouse Sport):
+       a. Press the MENU button.
+       b. Navigate to: My Data > Import.
+       c. Select the SD card.
+       d. Choose the GPX file and import.
+
+  9. For older eS / a Series (LightHouse 2/3):
+       a. Navigate to: Home > My Data > Waypoints > Import.
+       b. Select the SD card source.
+       c. Choose the file and confirm.
+
+  10. Wait for import confirmation.
+
+RAYMARINE-SPECIFIC NOTES:
+  - Make sure you are running LightHouse 4.1+ on Axiom units and
+    LightHouse Sport OS 4.0+ on Element units for best GPX compatibility.
+  - Axiom Pro units also support USB import via a direct PC connection.
+  - The older Dragonfly series has limited import capabilities. Contact us
+    if you need help with a Dragonfly unit.
+
+================================================================================
+  8. BACKUP YOUR EXISTING WAYPOINTS
+================================================================================
+
+Before importing new spots, we STRONGLY recommend backing up your existing
+waypoints. If something goes wrong during import, you don't want to lose
+years of personal fishing data.
+
+HOW TO BACKUP:
+
+  GARMIN:
+    Info > User Data > Data Transfer > Export to Card > All User Data
+
+  LOWRANCE:
+    Files > My Data > Export > All Waypoints > Save to Card
+
+  HUMMINBIRD:
+    Nav > Waypoints Management > Export All > SD Card
+
+  SIMRAD:
+    Settings > Waypoints > Export to Card
+
+  RAYMARINE:
+    My Data > Import/Export > Export to Card > All Waypoints
+
+BACKUP TIPS:
+  - Use a DIFFERENT SD card for your backup than the one you're using
+    for import. Keep the backup card in a safe, dry place.
+  - Label the backup card with the date and the unit model.
+  - Back up regularly, not just before imports. After every good fishing
+    trip where you mark new spots, back up your data.
+  - Some captains keep a quarterly backup rotation. Smart practice.
+
+================================================================================
+  9. CARD SIZE AND BRAND RECOMMENDATIONS
+================================================================================
+
+RECOMMENDED CARDS:
+  - SanDisk Ultra 16GB or 32GB microSD (most reliable across all brands)
+  - Samsung EVO Select 16GB or 32GB microSD
+  - Kingston Canvas Select 16GB or 32GB microSD
+
+CARD SIZE GUIDELINES:
+  - 2GB to 32GB: Works with all marine electronics. Best compatibility.
+  - 64GB: May work but requires forced FAT32 formatting (see Section 2).
+  - 128GB+: Not recommended. Many units will not recognize cards this large.
+  - For waypoint files only, a 2GB card is more than sufficient. Save the
+    big cards for sonar recording and map storage.
+
+WHAT TO AVOID:
+  - Cheap no-name cards from Amazon. They often report false capacity and
+    can corrupt data.
+  - Cards you've been using in a GoPro or dashcam for years. Heavily-used
+    cards are more likely to fail.
+  - Full-size SD cards without adapters (most modern units use microSD).
+
+================================================================================
+  10. COMMON MISTAKES TO AVOID
+================================================================================
+
+  MISTAKE: Using exFAT or NTFS format.
+  FIX: Always format as FAT32. See Section 2.
+
+  MISTAKE: Putting files in the wrong folder (or wrong level) on Garmin cards.
+  FIX: Garmin requires [SD Card]/Garmin/GPX/ folder structure. Other brands
+  accept files in the root directory.
+
+  MISTAKE: Not safely ejecting the card from the computer.
+  FIX: Always use "Safely Remove Hardware" (Windows) or "Eject" (Mac).
+  Pulling the card without ejecting can corrupt the file.
+
+  MISTAKE: Importing on top of existing waypoints without backing up first.
+  FIX: Always back up your waypoints before importing. See Section 8.
+
+  MISTAKE: Using a card with map data (Navionics, C-MAP) for waypoint import.
+  FIX: Use a separate, dedicated card for data transfer.
+
+  MISTAKE: Trying to import on a unit with outdated firmware.
+  FIX: Update your chartplotter firmware to the latest version before
+  attempting any file import. Check the manufacturer's website.
+
+  MISTAKE: Card is too large (64GB+) for the unit to recognize.
+  FIX: Use a 16GB or 32GB card. If you must use 64GB+, force FAT32 format.
+
+================================================================================
+
+For any questions or issues loading your GPS spots, email us at:
+support@floridafishingmaps.com
+
+We respond to every message and will walk you through it if needed.
+Tight lines.
+
+  Website: www.floridafishingmaps.com
+
+================================================================================
+   (c) FloridaFishingMaps.com - All Rights Reserved
+================================================================================
