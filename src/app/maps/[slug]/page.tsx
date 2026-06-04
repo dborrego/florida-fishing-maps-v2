@@ -66,19 +66,22 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
         <div className="absolute inset-0 bg-grid bg-grid opacity-40" />
         <div className="absolute inset-0 bg-radial-glow" />
         <Container className="relative pt-16 pb-12">
-          <nav className="text-xs font-mono uppercase tracking-widest text-foam/50 mb-4">
+          <nav className="mb-4 flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1 text-xs font-mono uppercase tracking-widest text-foam/50">
             <a href="/" className="hover:text-plotter">Home</a>
-            <span className="mx-2">/</span>
+            <span>/</span>
             <a href="/maps" className="hover:text-plotter">Maps</a>
-            <span className="mx-2">/</span>
-            <span className="text-plotter">{product.shortName}</span>
+            <span>/</span>
+            <span className="min-w-0 break-words text-plotter">{product.shortName}</span>
           </nav>
 
-          <div className="inline-flex items-center gap-2 rounded-full border border-plotter/30 bg-plotter/5 px-3 py-1 text-xs uppercase tracking-widest font-mono text-plotter">
-            <MapPin className="h-3 w-3" /> {product.city}, {product.county} County
+          <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-plotter/30 bg-plotter/5 px-3 py-1 text-xs uppercase tracking-widest font-mono text-plotter">
+            <MapPin className="h-3 w-3 shrink-0" />
+            <span className="min-w-0 truncate">
+              {product.city}, {product.county} County
+            </span>
           </div>
 
-          <h1 className="mt-4 font-display text-4xl sm:text-5xl md:text-6xl font-bold text-foam leading-tight max-w-3xl">
+          <h1 className="mt-4 max-w-3xl break-words font-display text-4xl font-bold leading-tight text-foam sm:text-5xl md:text-6xl">
             {product.name}
           </h1>
 
@@ -95,9 +98,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
       </div>
 
       <Container>
-        <div className="grid gap-12 lg:grid-cols-[1fr_400px] py-16">
+        <div className="grid min-w-0 gap-12 py-16 lg:grid-cols-[minmax(0,1fr)_400px]">
           {/* LEFT: long-form content */}
-          <div className="space-y-12">
+          <div className="min-w-0 space-y-12">
             {/* Spot breakdown */}
             <section>
               <h2 className="font-display text-2xl font-bold text-foam mb-6">
@@ -249,7 +252,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           </div>
 
           {/* RIGHT: buy panel */}
-          <aside>
+          <aside className="min-w-0">
             <BuyPanel product={product} />
           </aside>
         </div>
@@ -281,7 +284,7 @@ function Stat({
   highlight?: boolean;
 }) {
   return (
-    <div className="glass rounded-xl p-5">
+    <div className="glass min-w-0 rounded-xl p-5">
       <div className={`mb-2 ${highlight ? "text-sonar" : "text-plotter"}`}>
         {icon}
       </div>
@@ -292,7 +295,7 @@ function Stat({
       >
         {value}
       </div>
-      <div className="text-xs uppercase tracking-wider text-foam/55 mt-1">
+      <div className="mt-1 break-words text-xs uppercase tracking-wider text-foam/55">
         {label}
       </div>
     </div>
