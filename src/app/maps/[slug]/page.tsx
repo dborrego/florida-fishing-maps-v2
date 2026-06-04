@@ -4,6 +4,8 @@ import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { BuyPanel } from "@/components/product/BuyPanel";
 import { RegionCard } from "@/components/product/RegionCard";
+import { ChartplotterPreview } from "@/components/product/ChartplotterPreview";
+import { RegionGallery } from "@/components/product/RegionGallery";
 import { PRODUCTS, getProduct } from "@/lib/products";
 import { buildMetadata } from "@/lib/seo";
 import {
@@ -121,6 +123,22 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               <p className="text-foam/80 leading-relaxed text-base">
                 {product.longDescription}
               </p>
+            </section>
+
+            {/* Location photos */}
+            <RegionGallery product={product} />
+
+            {/* What a spot looks like on a chartplotter */}
+            <section>
+              <h2 className="font-display text-2xl font-bold text-foam mb-4">
+                Your spots, on your screen
+              </h2>
+              <p className="text-foam/80 leading-relaxed text-base mb-5">
+                Every coordinate loads as a labeled waypoint, exactly like this.
+                Drop the file on an SD card, import it, and the spots appear on
+                your chartplotter ready to navigate to.
+              </p>
+              <ChartplotterPreview product={product} />
             </section>
 
             {/* Species */}
