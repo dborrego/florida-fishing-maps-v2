@@ -2,29 +2,15 @@ import { Section } from "@/components/ui/Section";
 import { Container } from "@/components/ui/Container";
 import { ButtonLink } from "@/components/ui/Button";
 import { Hero } from "@/components/home/Hero";
+import { SonarDepthFinder } from "@/components/home/SonarDepthFinder";
+import { ChartCompare } from "@/components/home/ChartCompare";
+import { SpeciesFinder } from "@/components/home/SpeciesFinder";
+import { CompatibilityWizard } from "@/components/home/CompatibilityWizard";
+import { CaptainProof } from "@/components/home/CaptainProof";
+import { ActionStrip } from "@/components/home/ActionStrip";
 import { RegionCard } from "@/components/product/RegionCard";
 import { PRODUCTS, getFeatured } from "@/lib/products";
-import {
-  Download,
-  Mail,
-  ShieldCheck,
-  Map,
-  Compass,
-  Anchor,
-  Waves,
-  Cpu,
-} from "lucide-react";
-
-const COMPATIBILITY = [
-  { name: "Garmin", note: "GPSMAP, ECHOMAP, Striker" },
-  { name: "Lowrance", note: "HDS, Elite, Hook²" },
-  { name: "Humminbird", note: "Helix, Solix, Apex" },
-  { name: "Simrad", note: "NSS, NSO, GO, Cruise" },
-  { name: "Raymarine", note: "Axiom, Element, Dragonfly" },
-  { name: "Furuno", note: "TZtouch2, TZtouch3, NavNet" },
-  { name: "Navionics App", note: "iOS & Android" },
-  { name: "Google Earth", note: ".kmz universal" },
-];
+import { Download, Map, Anchor, Cpu } from "lucide-react";
 
 const HOMEPAGE_FAQS = [
   {
@@ -54,6 +40,12 @@ export default function HomePage() {
     <>
       <Hero />
 
+      {/* 1. Animated sonar / depth finder — "see what your chartplotter is missing" */}
+      <SonarDepthFinder />
+
+      {/* 2. Blank vs loaded chart */}
+      <ChartCompare />
+
       {/* Featured regions */}
       <Container>
         <Section
@@ -73,6 +65,9 @@ export default function HomePage() {
           </div>
         </Section>
       </Container>
+
+      {/* 3. Species / season finder */}
+      <SpeciesFinder />
 
       {/* How it works */}
       <div className="bg-midnight/40 border-y border-plotter/10">
@@ -106,58 +101,14 @@ export default function HomePage() {
         </Container>
       </div>
 
-      {/* Compatibility */}
-      <Container>
-        <Section
-          eyebrow="Universal compatibility"
-          title="Every chartplotter on the water"
-          subtitle="If your unit takes an SD card or accepts a GPX import, you're covered. We package the right format automatically based on your selection at checkout."
-        >
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {COMPATIBILITY.map((c) => (
-              <div
-                key={c.name}
-                className="glass rounded-lg p-5 text-center"
-              >
-                <div className="font-display font-semibold text-foam text-lg">
-                  {c.name}
-                </div>
-                <div className="mt-1 text-xs text-foam/60">{c.note}</div>
-              </div>
-            ))}
-          </div>
-        </Section>
-      </Container>
+      {/* 4. Compatibility wizard */}
+      <CompatibilityWizard />
 
-      {/* Trust strip */}
-      <div className="bg-gradient-to-b from-deep/30 to-abyss border-y border-plotter/10">
-        <Container>
-          <Section align="center" className="py-16">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-              <Trust
-                icon={<ShieldCheck className="h-6 w-6" />}
-                title="Stripe Checkout"
-                body="Bank-grade encryption"
-              />
-              <Trust
-                icon={<Mail className="h-6 w-6" />}
-                title="Instant Delivery"
-                body="Email within minutes"
-              />
-              <Trust
-                icon={<Waves className="h-6 w-6" />}
-                title="Verified Spots"
-                body="Fished by real captains"
-              />
-              <Trust
-                icon={<Compass className="h-6 w-6" />}
-                title="All-Format Pack"
-                body="Every chartplotter brand"
-              />
-            </div>
-          </Section>
-        </Container>
-      </div>
+      {/* 5. Captain proof */}
+      <CaptainProof />
+
+      {/* 6. Action / atmosphere strip (secondary) */}
+      <ActionStrip />
 
       {/* FAQ */}
       <Container>
@@ -237,26 +188,6 @@ function Step({
         {title}
       </h3>
       <p className="text-sm text-foam/70 leading-relaxed">{body}</p>
-    </div>
-  );
-}
-
-function Trust({
-  icon,
-  title,
-  body,
-}: {
-  icon: React.ReactNode;
-  title: string;
-  body: string;
-}) {
-  return (
-    <div className="text-center">
-      <div className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-plotter/10 text-plotter mb-3">
-        {icon}
-      </div>
-      <div className="font-display font-semibold text-foam text-sm">{title}</div>
-      <div className="text-xs text-foam/60 mt-1">{body}</div>
     </div>
   );
 }
