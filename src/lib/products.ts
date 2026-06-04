@@ -96,6 +96,9 @@ export interface RegionProduct {
   // file paths inside Vercel Blob, by format. Filled in once Danny uploads.
   files: Partial<Record<ChartplotterFormat, string>>;
   heroImage: string;
+  // Curated, license-clean location photos shown on the product page.
+  // Optional: pages render no gallery until photos are added.
+  gallery?: { src: string; alt: string; credit?: string }[];
   // GEO: lat/lng of region center for LocalBusiness / map embeds
   center: { lat: number; lng: number };
   faqs: { q: string; a: string }[];
@@ -143,15 +146,44 @@ export const PRODUCTS: RegionProduct[] = [
     featured: true,
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1576017454374-e24271593475?auto=format&fit=crop&w=1200&q=80",
+        alt: "Golden hour water and dock scenery in Islamorada, Florida Keys",
+        credit: "Catherine / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1697490600572-9e0b2c1eefea?auto=format&fit=crop&w=900&q=80",
+        alt: "Sailboat on the ocean at sunset near Key West",
+        credit: "Tim Nichols / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1669639785616-3353f0f11de7?auto=format&fit=crop&w=900&q=80",
+        alt: "Key West beach sunset with palms and open water",
+        credit: "Christopher Osten / Unsplash",
+      },
+    ],
     center: { lat: 24.5551, lng: -81.7800 },
     faqs: [
       {
+        q: "How soon will I get the Keys maps after paying?",
+        a: "Usually within minutes, and always within an hour. The download link is emailed automatically as soon as Stripe confirms your payment.",
+      },
+      {
+        q: "Will the file load on my Garmin, Lowrance or Humminbird?",
+        a: "Yes. You pick your brand at checkout and we send the matching format, plus a universal .gpx and a .kmz for Google Earth so you can plan on a laptop.",
+      },
+      {
         q: "Are these spots good year-round?",
-        a: "Yes. The Keys fish year-round and we've separated the spots into seasonal patterns inside the documentation that comes with your download.",
+        a: "Yes. The Keys fish year-round and the included documentation separates the spots into seasonal patterns so you know what's biting when.",
+      },
+      {
+        q: "How do the 312 spots break down?",
+        a: "118 inshore/backcountry spots for tarpon, permit and bonefish, 124 offshore including 48 reefs and 22 wrecks, plus the famous humps and ledges between.",
       },
       {
         q: "Do these include the deep drop spots south of Key West?",
-        a: "Yes — 22 deep drop locations from 600-1,200 ft for snowy grouper, queen snapper and tilefish are included.",
+        a: "Yes — deep drop locations from 600-1,200 ft for snowy grouper, queen snapper and tilefish are part of the offshore set.",
       },
     ],
   },
@@ -186,11 +218,44 @@ export const PRODUCTS: RegionProduct[] = [
     featured: true,
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1657373725182-6bb195badcbc?auto=format&fit=crop&w=1200&q=80",
+        alt: "Kayak and sunset water scene in Tampa Bay",
+        credit: "Anita Denunzio / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1646338176764-faab1329a915?auto=format&fit=crop&w=900&q=80",
+        alt: "Fishing boat running across Tampa water",
+        credit: "Taylor Daugherty / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1697819925284-6a5cef689f81?auto=format&fit=crop&w=900&q=80",
+        alt: "Aerial view of St. Petersburg sand bars and blue water",
+        credit: "Anita Denunzio / Unsplash",
+      },
+    ],
     center: { lat: 27.7634, lng: -82.5665 },
     faqs: [
       {
+        q: "How fast is delivery, and how do I get the file?",
+        a: "Within an hour of checkout — usually minutes. A download link is emailed automatically once payment clears.",
+      },
+      {
+        q: "Which chartplotters are supported?",
+        a: "All major brands — Garmin, Lowrance, Humminbird, Simrad, Raymarine and Furuno — plus the Navionics app and Google Earth. You choose your unit at checkout.",
+      },
+      {
         q: "Does this cover Boca Ciega Bay?",
         a: "Yes — the western shore from Pass-a-Grille up through Madeira Beach is included.",
+      },
+      {
+        q: "Are the inshore spots tide-specific?",
+        a: "Yes. The 142 inshore spots come with notes on the tide stage and season that fish each flat, pothole and dock line best for snook, redfish and trout.",
+      },
+      {
+        q: "Do the offshore spots reach the grouper bottom?",
+        a: "Yes — the near-shore reefs and hard bottom out to about 30 miles are included, where gag grouper, hogfish, mangrove snapper and kingfish hold.",
       },
     ],
   },
@@ -225,8 +290,46 @@ export const PRODUCTS: RegionProduct[] = [
     featured: true,
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1707803805432-ffb294d8027e?auto=format&fit=crop&w=1200&q=80",
+        alt: "Boat offshore from Miami Beach with Atlantic water in view",
+        credit: "Arnav Das / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1717940730787-23de9e6c1034?auto=format&fit=crop&w=900&q=80",
+        alt: "White boat cutting through deep blue water off Miami",
+        credit: "Dennis Zhang / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1741023705604-09d68b57e9b5?auto=format&fit=crop&w=900&q=80",
+        alt: "Boats and Miami waterfront skyline",
+        credit: "Walter Martin / Unsplash",
+      },
+    ],
     center: { lat: 25.7617, lng: -80.1918 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How soon do I get the maps?",
+        a: "Within an hour of checkout, usually minutes — the download link is emailed automatically after payment.",
+      },
+      {
+        q: "Which chartplotter formats are included?",
+        a: "Pick your brand at checkout (Garmin, Lowrance, Humminbird, Simrad, Raymarine, Furuno) and we send that format plus a universal .gpx and a .kmz for Google Earth.",
+      },
+      {
+        q: "Is this offshore only?",
+        a: "Yes — all 187 spots are offshore, from Government Cut to the edge of the Gulf Stream. There are no inshore or bay spots in this pack.",
+      },
+      {
+        q: "What depth range do the spots cover?",
+        a: "Roughly 80 to 400+ feet — the second and third reef ledges, the wrecks off Miami Beach, and the deep humps where pelagics push through.",
+      },
+      {
+        q: "Are the daytime swordfish and deep spots included?",
+        a: "Yes — the deep ledges and drop-offs that hold swordfish, blackfin tuna and mutton snapper are part of the set.",
+      },
+    ],
   },
   {
     slug: "panhandle",
@@ -258,8 +361,46 @@ export const PRODUCTS: RegionProduct[] = [
     launchPoints: ["Pensacola", "Destin", "Panama City", "Apalachicola"],
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1772395371673-7aa1779e395f?auto=format&fit=crop&w=1200&q=80",
+        alt: "Fishing boats on calm Destin water near a bridge",
+        credit: "Jamie Harthcock / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1684035631153-da7d759c22a9?auto=format&fit=crop&w=900&q=80",
+        alt: "Boat on bright blue Destin water",
+        credit: "Brad / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1664157586349-49908e94dec5?auto=format&fit=crop&w=900&q=80",
+        alt: "Pensacola Beach sunset over Gulf Coast water",
+        credit: "Taylor Cole / Unsplash",
+      },
+    ],
     center: { lat: 30.3935, lng: -86.4958 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How fast will I receive the Panhandle maps?",
+        a: "Within an hour of payment — usually just a few minutes. The link is emailed automatically.",
+      },
+      {
+        q: "Will these work with my unit?",
+        a: "Yes. Choose Garmin, Lowrance, Humminbird, Simrad, Raymarine or Furuno at checkout; we also include a universal .gpx and a Google Earth .kmz.",
+      },
+      {
+        q: "Do these include public reefs and private numbers?",
+        a: "Both. You get the public artificial reefs everyone fishes plus proven private bottom that local captains have worked for years.",
+      },
+      {
+        q: "Is this good for red snapper season?",
+        a: "Yes — the offshore set is built around the reefs and hard bottom that hold red snapper, gag grouper, amberjack and triggerfish.",
+      },
+      {
+        q: "How far does the coverage stretch?",
+        a: "From Pensacola and Navarre through Destin and Panama City to Apalachicola Bay, including the inshore creeks and grass beds for reds and trout.",
+      },
+    ],
   },
   {
     slug: "jacksonville",
@@ -290,8 +431,46 @@ export const PRODUCTS: RegionProduct[] = [
     launchPoints: ["Jacksonville", "Mayport", "St. Augustine", "Ponte Vedra"],
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1701246605727-67cd977f533e?auto=format&fit=crop&w=1200&q=80",
+        alt: "St. Augustine waterfront with boats, bridge and coastline",
+        credit: "Moses Malik Roldan / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1701246318021-84a7936a4ed8?auto=format&fit=crop&w=900&q=80",
+        alt: "Boats floating near the St. Augustine lighthouse",
+        credit: "Moses Malik Roldan / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1626963273726-d07244468eac?auto=format&fit=crop&w=900&q=80",
+        alt: "St. Augustine Atlantic shoreline at sunrise",
+        credit: "David Nicolai / Unsplash",
+      },
+    ],
     center: { lat: 30.3322, lng: -81.6557 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How quickly are the maps delivered?",
+        a: "Within an hour of checkout, usually minutes — emailed automatically once payment clears.",
+      },
+      {
+        q: "Which chartplotters are supported?",
+        a: "All major brands plus the Navionics app and Google Earth. Select your unit at checkout and we send the matching file.",
+      },
+      {
+        q: "Does this cover the St. Johns River?",
+        a: "Yes — the river and its tributaries make up most of the 92 inshore spots, holding flounder, redfish, sheepshead and trout.",
+      },
+      {
+        q: "Are the offshore ledges and artificial reefs included?",
+        a: "Yes — the Nine Mile, the Elton Bottom, the M Reef and many lesser-known ledges out to 18 fathoms are in the offshore set.",
+      },
+      {
+        q: "Does it reach St. Augustine?",
+        a: "Yes. Coverage runs from Mayport and the St. Johns south through Ponte Vedra and St. Augustine.",
+      },
+    ],
   },
   {
     slug: "everglades-10000-islands",
@@ -314,8 +493,46 @@ export const PRODUCTS: RegionProduct[] = [
     launchPoints: ["Marco Island", "Goodland", "Everglades City", "Chokoloskee", "Flamingo"],
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1671678075677-eae303b606aa?auto=format&fit=crop&w=1200&q=80",
+        alt: "Airboat crossing Everglades wetlands",
+        credit: "Richard Sagredo / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1679429320306-e5ca96a714a8?auto=format&fit=crop&w=900&q=80",
+        alt: "Everglades marsh water with lily pads",
+        credit: "Nellie Adamyan / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1758464644123-a5c55ed41a66?auto=format&fit=crop&w=900&q=80",
+        alt: "Boardwalk over lily pad wetlands in the Everglades",
+        credit: "paws and prints / Unsplash",
+      },
+    ],
     center: { lat: 25.8523, lng: -81.3870 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How fast is delivery?",
+        a: "Within an hour of payment, usually minutes. The download link is emailed automatically.",
+      },
+      {
+        q: "What format will I get?",
+        a: "Your chartplotter brand's file (chosen at checkout), plus a universal .gpx and a .kmz for Google Earth.",
+      },
+      {
+        q: "I don't know the backcountry — will this keep me off the bottom?",
+        a: "These are fishing waypoints, not a navigation chart, so always run them alongside your unit's basemap and a good tide app. What they do is drop you on proven oyster bars, creeks, holes and points so you stop burning fuel searching blind.",
+      },
+      {
+        q: "Do the spots come with tide notes?",
+        a: "Yes. Because the 10,000 Islands fish so heavily on tide, each spot includes notes on the stage and season it produces best.",
+      },
+      {
+        q: "What area is covered?",
+        a: "From Marco Island and Goodland through Everglades City and Chokoloskee down to Flamingo — snook, redfish, tarpon, trout and snapper country.",
+      },
+    ],
   },
   {
     slug: "fort-lauderdale-palm-beach",
@@ -338,8 +555,46 @@ export const PRODUCTS: RegionProduct[] = [
     launchPoints: ["Hillsboro Inlet", "Port Everglades", "Boca Inlet", "Jupiter Inlet"],
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1705351901492-34c189b1ae1b?auto=format&fit=crop&w=1200&q=80",
+        alt: "Fort Lauderdale waterway with boats and palm-lined shoreline",
+        credit: "Maloree Bloom / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1715350020111-7deb83f14281?auto=format&fit=crop&w=900&q=80",
+        alt: "Coral reef fish underwater near Fort Lauderdale",
+        credit: "Ricky Beron / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1654575100652-41d658a3bc86?auto=format&fit=crop&w=900&q=80",
+        alt: "West Palm Beach waterway with sailboats and skyline",
+        credit: "Richard Sagredo / Unsplash",
+      },
+    ],
     center: { lat: 26.1224, lng: -80.1373 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How soon do I get the maps?",
+        a: "Within an hour of checkout, usually minutes — emailed automatically once payment clears.",
+      },
+      {
+        q: "Will the file work on my unit?",
+        a: "Yes. Pick your brand at checkout (Garmin, Lowrance, Humminbird, Simrad, Raymarine, Furuno) and we send that format plus a universal .gpx and a Google Earth .kmz.",
+      },
+      {
+        q: "Are the named wrecks included?",
+        a: "Yes — the well-known Lauderdale wrecks like the Tracy, Mercedes, RBJ and Captain Dan are in the pack, along with the second and third reef ledges.",
+      },
+      {
+        q: "Does it cover the sailfish kite-fishing zones?",
+        a: "Yes. This is the heart of Florida's sailfish coast — the kite tracks from Boca Raton through Jupiter are mapped.",
+      },
+      {
+        q: "What depths do the spots cover?",
+        a: "From the inshore reef ledges out to the deeper troll and kite lanes — roughly 60 to 300 feet between Hillsboro Inlet and Jupiter.",
+      },
+    ],
   },
   {
     slug: "indian-river-lagoon",
@@ -362,8 +617,46 @@ export const PRODUCTS: RegionProduct[] = [
     launchPoints: ["Sebastian Inlet", "Vero Beach", "Fort Pierce Inlet", "Stuart", "Jupiter"],
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1751983115040-ab72bb397195?auto=format&fit=crop&w=1200&q=80",
+        alt: "Fisherman on a pier at sunrise over the Indian River Lagoon",
+        credit: "Phyllis Lilienthal / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1516633630673-67bbad747022?auto=format&fit=crop&w=900&q=80",
+        alt: "Sebastian Inlet shoreline and blue water",
+        credit: "Lacie Cueto / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1601517315022-0e57b19e88f3?auto=format&fit=crop&w=900&q=80",
+        alt: "Aerial view of Jupiter Inlet and Atlantic water",
+        credit: "Chase Baker / Unsplash",
+      },
+    ],
     center: { lat: 27.5311, lng: -80.4106 },
-    faqs: [],
+    faqs: [
+      {
+        q: "How fast will I get the maps?",
+        a: "Within an hour of payment, usually minutes. The link is emailed automatically once Stripe confirms checkout.",
+      },
+      {
+        q: "Which chartplotters and apps are supported?",
+        a: "All major chartplotter brands plus the Navionics app and Google Earth. Choose your unit at checkout.",
+      },
+      {
+        q: "Does it include Mosquito Lagoon for gator trout?",
+        a: "Yes — the Mosquito Lagoon and Banana River grass flats that grow the state's biggest trout are part of the 158 inshore spots.",
+      },
+      {
+        q: "Is this an inshore-only pack?",
+        a: "Yes. Every spot is inshore — flats, potholes, docks and inlets from Sebastian down through Stuart and Jupiter, including the Crossroads where the St. Lucie meets the lagoon.",
+      },
+      {
+        q: "Do the spots include tide and season notes?",
+        a: "Yes. Each spot comes with notes on the tide stage and time of year it fishes best for trout, snook, redfish and black drum.",
+      },
+    ],
   },
   {
     slug: "florida-statewide-bundle",
@@ -379,7 +672,7 @@ export const PRODUCTS: RegionProduct[] = [
     reefCount: 156,
     wreckCount: 79,
     description:
-      "Every region. Every spot. 1,855 GPS coordinates across the entire state of Florida — over 50% off vs. buying separately.",
+      "Every region. Every spot. 1,855 GPS coordinates across the entire state of Florida — save about $270 vs. buying separately.",
     longDescription:
       "Buy every regional map at once and save. The Statewide Bundle includes the Keys, Tampa Bay, Miami, the Panhandle, Jacksonville, the Everglades, Fort Lauderdale, and the Indian River Lagoon — 1,855 GPS-verified spots covering inshore, offshore, reefs, wrecks and ledges. The same chartplotter format pack you'd choose for a single region applies to the entire bundle.",
     speciesTargets: ["Every species in Florida"],
@@ -387,11 +680,54 @@ export const PRODUCTS: RegionProduct[] = [
     featured: true,
     files: {},
     heroImage: HERO_DEFAULT,
+    gallery: [
+      {
+        src: "https://images.unsplash.com/photo-1576017454374-e24271593475?auto=format&fit=crop&w=1200&q=80",
+        alt: "Florida Keys water and dock scenery at golden hour",
+        credit: "Catherine / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1657373725182-6bb195badcbc?auto=format&fit=crop&w=900&q=80",
+        alt: "Tampa Bay water at sunset",
+        credit: "Anita Denunzio / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1707803805432-ffb294d8027e?auto=format&fit=crop&w=900&q=80",
+        alt: "Miami Beach offshore water with a boat in the distance",
+        credit: "Arnav Das / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1671678075677-eae303b606aa?auto=format&fit=crop&w=900&q=80",
+        alt: "Everglades wetlands and boating scenery",
+        credit: "Richard Sagredo / Unsplash",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1751983115040-ab72bb397195?auto=format&fit=crop&w=900&q=80",
+        alt: "Indian River Lagoon sunrise pier and water scene",
+        credit: "Phyllis Lilienthal / Unsplash",
+      },
+    ],
     center: { lat: 27.6648, lng: -81.5158 },
     faqs: [
       {
+        q: "How much do I save versus buying regions separately?",
+        a: "You pay $399.99 for all 1,855 spots instead of $669.92 buying the eight regions one at a time — a saving of about $270.",
+      },
+      {
+        q: "How soon is it delivered?",
+        a: "Within an hour of checkout, usually minutes. Everything is emailed automatically once payment clears.",
+      },
+      {
         q: "Do I get one big file or one file per region?",
-        a: "You get one file per region in your chosen format, plus a combined file containing every spot — so you can load them as separate folders on your chartplotter or as one big set.",
+        a: "Both. You get one file per region in your chosen format plus a combined file containing every spot, so you can load them as separate folders or as one big set.",
+      },
+      {
+        q: "Does my chartplotter choice apply to the whole bundle?",
+        a: "Yes. The format you pick at checkout (Garmin, Lowrance, Humminbird, Simrad, Raymarine or Furuno) applies to every region in the bundle, and a universal .gpx and Google Earth .kmz are included too.",
+      },
+      {
+        q: "Which regions are included?",
+        a: "All eight: the Keys, Tampa Bay, Miami Offshore, the Panhandle, Jacksonville, the Everglades & 10,000 Islands, Fort Lauderdale & Palm Beach, and the Indian River Lagoon.",
       },
     ],
   },
