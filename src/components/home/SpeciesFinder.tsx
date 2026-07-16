@@ -43,21 +43,23 @@ export function SpeciesFinder() {
   const species = SPECIES[active];
 
   const matches = useMemo(() => {
-    return PRODUCTS.filter((p) =>
-      p.speciesTargets.some((s) =>
-        species.match.some((m) => s.toLowerCase().includes(m))
-      )
-    );
+    return PRODUCTS.filter(
+      (p) =>
+        !p.isBundle &&
+        p.speciesTargets.some((s) =>
+          species.match.some((m) => s.toLowerCase().includes(m))
+        )
+    ).sort((a, b) => Number(b.status === "live") - Number(a.status === "live"));
   }, [species]);
 
-  const bundle = getProduct("florida-statewide-bundle");
+  const bundle = getProduct("south-florida-bundle");
 
   return (
     <Container>
       <Section
         eyebrow="Find your fish"
         title="What are you chasing?"
-        subtitle="Tap a species and we'll point you to the regions that target it. Buying for everything? The Statewide Bundle covers all of it."
+        subtitle="Tap a species and we'll point you to the regions that target it. Fishing all of South Florida? The bundle covers both live regions."
       >
         {/* species chips */}
         <div className="flex flex-wrap gap-2.5">
@@ -104,11 +106,19 @@ export function SpeciesFinder() {
                     {p.shortName}
                   </div>
                   <div className="mt-1 text-xs uppercase tracking-wider text-foam/50 font-mono">
-                    {p.spotCount} spots · {p.city}
+                    {p.status === "live"
+                      ? `${p.spotCount} spots · ${p.city}`
+                      : `Being charted · ${p.city}`}
                   </div>
                 </div>
                 <div className="font-display text-plotter font-bold">
-                  {formatPrice(p.priceCents)}
+                  {p.status === "live" ? (
+                    formatPrice(p.priceCents)
+                  ) : (
+                    <span className="text-xs uppercase tracking-wider font-mono text-sun">
+                      Soon
+                    </span>
+                  )}
                 </div>
               </div>
               <div className="mt-4 flex flex-wrap gap-1.5">
@@ -135,14 +145,15 @@ export function SpeciesFinder() {
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 rounded-xl border border-plotter/20 bg-plotter/[0.04] p-6">
             <div>
               <div className="font-display text-lg font-semibold text-foam">
-                Chasing more than one? Get every species, every region.
+                Chasing more than one? Bundle both live regions.
               </div>
               <div className="mt-1 text-sm text-foam/60">
-                {bundle.spotCount.toLocaleString()} spots statewide for {formatPrice(bundle.priceCents)}.
+                {bundle.spotCount.toLocaleString()} spots across the Keys and
+                Miami Offshore for {formatPrice(bundle.priceCents)}.
               </div>
             </div>
             <ButtonLink href={`/maps/${bundle.slug}`} variant="primary" size="lg">
-              Statewide Bundle →
+              South Florida Bundle →
             </ButtonLink>
           </div>
         )}

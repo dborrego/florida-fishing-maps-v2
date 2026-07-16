@@ -25,8 +25,10 @@ export default function PrivacyPage() {
 
         <h2 className="font-display text-xl font-semibold text-foam mt-6">What we store</h2>
         <p>
-          Your email and order history so we can re-send your download link if
-          you lose it. That's it. We don't sell or rent your data, ever.
+          We don't run our own customer database. Your order details (email and
+          purchase) live securely with Stripe, our payment processor — that's
+          how we verify your purchase and re-send your download link if you
+          lose it. We don't sell or rent your data, ever.
         </p>
 
         <h2 className="font-display text-xl font-semibold text-foam mt-6">Third parties</h2>

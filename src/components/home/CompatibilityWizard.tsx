@@ -27,9 +27,9 @@ const ORDER: ChartplotterFormat[] = [
 
 const LOAD_STEPS: Record<ChartplotterFormat, string[]> = {
   garmin: [
-    "Copy the .gpx file into the /Garmin/GPX folder on a blank SD card.",
+    "Copy the native .adm file onto a blank SD card (universal .gpx also included in your ZIP).",
     "Insert the card into your GPSMAP, ECHOMAP or Striker unit.",
-    "Open Waypoints → Import, pick the file — every spot drops in as a waypoint.",
+    "Import User Data (or Waypoints → Import) — every spot drops in as a waypoint.",
   ],
   lowrance: [
     "Copy the .usr file to the root of a microSD card.",
@@ -37,12 +37,12 @@ const LOAD_STEPS: Record<ChartplotterFormat, string[]> = {
     "Select the .usr file → Import — all waypoints load at once.",
   ],
   humminbird: [
-    "Place the .gpx file on a blank SD card.",
+    "Place the native .HWR file on a blank SD card.",
     "Insert the card into your Helix, Solix or Apex.",
     "Menu → Import Nav Data → choose the file.",
   ],
   simrad: [
-    "Copy the .usr file onto an SD or microSD card.",
+    "Copy the .gpx file onto an SD or microSD card.",
     "Insert the card into your NSS, NSO, GO or Cruise unit.",
     "Files → memory card → select the file → Import.",
   ],
@@ -57,7 +57,7 @@ const LOAD_STEPS: Record<ChartplotterFormat, string[]> = {
     "Menu → Files → Import Waypoints/Routes.",
   ],
   "navionics-mobile": [
-    "Open the .gpx from your email or Files app on the phone.",
+    "Download the ZIP from your email, then open the universal .gpx in your Files app.",
     "Choose 'Open in Navionics Boating'.",
     "The spots import straight into your markers — no card needed.",
   ],

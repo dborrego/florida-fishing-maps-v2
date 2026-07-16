@@ -30,7 +30,7 @@ export function GET() {
   lines.push("");
   lines.push("## Available regional map packs");
   lines.push("");
-  for (const p of PRODUCTS) {
+  for (const p of PRODUCTS.filter((x) => x.status === "live")) {
     lines.push(`### ${p.name}`);
     lines.push(`URL: ${absoluteUrl(`/maps/${p.slug}`)}`);
     lines.push(`Price: $${(p.priceCents / 100).toFixed(2)} USD`);
@@ -41,6 +41,17 @@ export function GET() {
     lines.push(`Targets: ${p.speciesTargets.join(", ")}`);
     lines.push(`Launch points: ${p.launchPoints.join(", ")}`);
     lines.push(`Description: ${p.description}`);
+    lines.push("");
+  }
+  const soon = PRODUCTS.filter((x) => x.status !== "live");
+  if (soon.length) {
+    lines.push("## Regions being charted (not yet for sale)");
+    lines.push("");
+    for (const p of soon) {
+      lines.push(
+        `- ${p.shortName} — coming soon: ${absoluteUrl(`/maps/${p.slug}`)}`
+      );
+    }
     lines.push("");
   }
   return new Response(lines.join("\n"), {

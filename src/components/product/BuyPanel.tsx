@@ -58,11 +58,11 @@ export function BuyPanel({ product }: { product: RegionProduct }) {
 
       <div className="space-y-2 mb-6">
         {[
-          "Format-specific file for your chartplotter",
-          "Universal .gpx + .kmz included",
-          "Quick-start loading guide (PDF)",
+          "Every chartplotter format in one ZIP",
+          "Universal .gpx + Google Earth .kmz included",
+          "Quick-start loading guides (PDF)",
           "Email delivery within an hour",
-          "Lifetime access to file re-downloads",
+          "30-day download link — email us anytime for a fresh one",
         ].map((b) => (
           <div key={b} className="flex items-start gap-2 text-sm">
             <Check className="h-4 w-4 mt-0.5 text-sonar shrink-0" />

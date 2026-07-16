@@ -4,12 +4,13 @@ import type { RegionProduct } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 
 export function RegionCard({ product }: { product: RegionProduct }) {
+  const isLive = product.status === "live";
   return (
     <Link
       href={`/maps/${product.slug}`}
       className="group glass relative overflow-hidden rounded-xl p-6 transition-all hover:-translate-y-1 block"
     >
-      {/* Top: name + price */}
+      {/* Top: name + price (price only when purchasable) */}
       <div className="flex items-start justify-between mb-4">
         <div>
           <div className="flex items-center gap-1.5 text-xs font-mono text-plotter uppercase tracking-wider">
@@ -21,23 +22,33 @@ export function RegionCard({ product }: { product: RegionProduct }) {
           </h3>
         </div>
         <div className="text-right">
-          <div className="font-display text-2xl font-bold text-foam">
-            {formatPrice(product.priceCents)}
-          </div>
+          {isLive ? (
+            <div className="font-display text-2xl font-bold text-foam">
+              {formatPrice(product.priceCents)}
+            </div>
+          ) : (
+            <span className="inline-flex items-center rounded-full border border-sun/40 bg-sun/10 px-2.5 py-1 text-[10px] uppercase tracking-wider font-mono text-sun">
+              Coming soon
+            </span>
+          )}
         </div>
       </div>
 
       <p className="text-sm text-foam/70 leading-relaxed mb-5 line-clamp-2">
-        {product.description}
+        {isLive
+          ? product.description
+          : `${product.shortName} is being charted now. Spot counts and pricing publish at launch — join the list on the region page.`}
       </p>
 
-      {/* Spot stats */}
-      <div className="grid grid-cols-4 gap-2 mb-5">
-        <Stat label="Total" value={product.spotCount} highlight />
-        <Stat label="Inshore" value={product.inshoreCount} />
-        <Stat label="Offshore" value={product.offshoreCount} />
-        <Stat label="Wrecks" value={product.wreckCount} />
-      </div>
+      {/* Spot stats — only shown once a pack is live and counts are real */}
+      {isLive && (
+        <div className="grid grid-cols-4 gap-2 mb-5">
+          <Stat label="Total" value={product.spotCount} highlight />
+          <Stat label="Inshore" value={product.inshoreCount} />
+          <Stat label="Offshore" value={product.offshoreCount} />
+          <Stat label="Wrecks" value={product.wreckCount} />
+        </div>
+      )}
 
       {/* Species */}
       <div className="flex flex-wrap gap-1.5 mb-5">
@@ -62,7 +73,7 @@ export function RegionCard({ product }: { product: RegionProduct }) {
           {product.center.lat.toFixed(4)}°N {Math.abs(product.center.lng).toFixed(4)}°W
         </span>
         <span className="inline-flex items-center gap-1 text-sm font-semibold text-plotter group-hover:gap-2 transition-all">
-          View
+          {isLive ? "View" : "Preview"}
           <ArrowRight className="h-4 w-4" />
         </span>
       </div>

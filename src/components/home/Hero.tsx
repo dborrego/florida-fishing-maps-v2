@@ -1,5 +1,6 @@
 import { ButtonLink } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { LIVE_REGION_PRODUCTS, LIVE_SPOT_TOTAL } from "@/lib/products";
 import { Anchor, MapPin, Zap } from "lucide-react";
 
 export function Hero() {
@@ -13,7 +14,7 @@ export function Hero() {
         <div className="max-w-4xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-plotter/30 bg-plotter/5 px-4 py-1.5 text-xs uppercase tracking-[0.25em] font-mono text-plotter">
             <Zap className="h-3 w-3" />
-            Loaded by 8,400+ Florida captains
+            Instant delivery · Every chartplotter brand
           </div>
 
           <h1 className="mt-6 font-display text-5xl sm:text-6xl md:text-7xl font-bold leading-[1.05] text-foam">
@@ -39,10 +40,14 @@ export function Hero() {
             </ButtonLink>
           </div>
 
+          {/* Stats derive from the live catalog — never hardcode counts here. */}
           <div className="mt-14 grid grid-cols-3 gap-8 max-w-xl">
             {[
-              { n: "1,855+", l: "GPS Spots" },
-              { n: "8 Regions", l: "Across Florida" },
+              { n: LIVE_SPOT_TOTAL.toLocaleString(), l: "GPS Spots Live Now" },
+              {
+                n: `${LIVE_REGION_PRODUCTS.length} Regions`,
+                l: "Live · More Being Charted",
+              },
               { n: "< 1 hr", l: "Email Delivery" },
             ].map((s) => (
               <div key={s.l}>

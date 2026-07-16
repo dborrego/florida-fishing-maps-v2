@@ -31,6 +31,12 @@ export async function POST(req: NextRequest) {
     const { slug, format } = parsed.data;
     const product = getProduct(slug);
     if (!product) return NextResponse.json({ error: "Product not found" }, { status: 404 });
+    if (product.status !== "live") {
+      return NextResponse.json(
+        { error: "This region is still being charted and isn't on sale yet." },
+        { status: 400 }
+      );
+    }
 
     const formatInfo = FORMAT_CATALOG[format];
 
@@ -63,8 +69,15 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ url: session.url, sessionId: session.id });
   } catch (e) {
     const msg = e instanceof Error ? e.message : "Checkout failed";
+    // Log the real error server-side, but never leak internals to the client.
     // eslint-disable-next-line no-console
     console.error("[checkout]", msg);
-    return NextResponse.json({ error: msg }, { status: 500 });
+    return NextResponse.json(
+      {
+        error:
+          "Checkout is temporarily unavailable. Please try again in a minute or email support@floridafishingmaps.com.",
+      },
+      { status: 500 }
+    );
   }
 }

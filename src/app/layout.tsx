@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { buildMetadata } from "@/lib/seo";
@@ -46,6 +47,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <OrganizationJsonLd />
         <WebsiteJsonLd />
+        {/* Vercel Web Analytics — cookieless; enable in Vercel → Analytics. */}
+        <Analytics />
       </body>
     </html>
   );

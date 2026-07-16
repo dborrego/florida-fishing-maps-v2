@@ -26,11 +26,11 @@ const FAQS = [
   },
   {
     q: "Are these public or private fishing spots?",
-    a: "A mix. We include all major public reefs and wrecks (these are widely known) plus private numbers gathered by working captains over 20+ years. The private spots are what makes the difference — you won't find them on any chart.",
+    a: "A mix. We include all major public reefs and wrecks (these are widely known) plus curated private numbers on natural bottom — ledges, humps, holes and flats you won't find labeled on a standard chart.",
   },
   {
     q: "Can I share the file with friends?",
-    a: "The license is for personal use on your own boats and devices. We track downloads, and re-distribution will trigger a takedown. We keep prices low because we trust customers; please respect that.",
+    a: "The license is for personal use on your own boats and devices. Re-distribution isn't allowed. We keep prices low because we trust customers; please respect that.",
   },
   {
     q: "What if my chartplotter is more than 10 years old?",
@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: "Do you offer a guarantee that I'll catch fish?",
-    a: "No one can guarantee that — fish move, weather changes, sometimes they just don't bite. What we guarantee is that every coordinate has held fish in the past, was verified by working captains, and gives you a starting point that would otherwise take seasons of trial-and-error to build.",
+    a: "No one can guarantee that — fish move, weather changes, sometimes they just don't bite. What we guarantee is that every coordinate marks real structure or a proven producing area, and gives you a starting point that would otherwise take seasons of trial-and-error to build.",
   },
   {
     q: "How do I load the spots on my unit?",

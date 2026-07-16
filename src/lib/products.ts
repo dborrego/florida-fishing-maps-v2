@@ -28,8 +28,9 @@ export const FORMAT_CATALOG: Record<ChartplotterFormat, FormatInfo> = {
   garmin: {
     id: "garmin",
     label: "Garmin",
-    extension: ".gpx",
-    description: "Works with all modern Garmin chartplotters and handhelds.",
+    extension: ".adm",
+    description:
+      "Native .adm card file for Garmin ECHOMAP and GPSMAP units. A universal .gpx is also included in your download.",
   },
   lowrance: {
     id: "lowrance",
@@ -40,14 +41,14 @@ export const FORMAT_CATALOG: Record<ChartplotterFormat, FormatInfo> = {
   humminbird: {
     id: "humminbird",
     label: "Humminbird",
-    extension: ".gpx",
-    description: "All Helix, Solix, Apex, and Onix series.",
+    extension: ".HWR",
+    description: "Native .HWR file for all Helix, Solix, Apex, and Onix series.",
   },
   simrad: {
     id: "simrad",
     label: "Simrad",
-    extension: ".usr",
-    description: "Simrad NSS, NSO, GO and Cruise series.",
+    extension: ".gpx",
+    description: "GPX import for Simrad NSS, NSO, GO and Cruise series.",
   },
   raymarine: {
     id: "raymarine",
@@ -75,13 +76,29 @@ export const FORMAT_CATALOG: Record<ChartplotterFormat, FormatInfo> = {
   },
 };
 
+export type ProductStatus = "live" | "coming-soon";
+
 export interface RegionProduct {
   slug: string;
   name: string;
   shortName: string;
-  region: "east-coast" | "gulf-coast" | "keys" | "panhandle" | "statewide";
+  region:
+    | "east-coast"
+    | "gulf-coast"
+    | "keys"
+    | "panhandle"
+    | "south-florida"
+    | "statewide";
   city: string;
   county: string;
+  /**
+   * "live" — deliverable files exist and are uploaded; product is purchasable.
+   * "coming-soon" — region is being charted; page renders a no-purchase
+   * preview state and checkout rejects the slug server-side.
+   */
+  status: ProductStatus;
+  /** True for multi-region bundle SKUs (excluded from per-region totals). */
+  isBundle?: boolean;
   priceCents: number;
   spotCount: number;
   inshoreCount: number;
@@ -115,6 +132,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "keys",
     city: "Key West",
     county: "Monroe",
+    status: "live",
     priceCents: 9999,
     spotCount: 312,
     inshoreCount: 118,
@@ -194,6 +212,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "gulf-coast",
     city: "Tampa",
     county: "Hillsborough",
+    status: "coming-soon",
     priceCents: 7999,
     spotCount: 218,
     inshoreCount: 142,
@@ -266,6 +285,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "east-coast",
     city: "Miami",
     county: "Miami-Dade",
+    status: "live",
     priceCents: 8999,
     spotCount: 187,
     inshoreCount: 0,
@@ -338,6 +358,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "panhandle",
     city: "Destin",
     county: "Okaloosa",
+    status: "coming-soon",
     priceCents: 8999,
     spotCount: 246,
     inshoreCount: 78,
@@ -409,6 +430,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "east-coast",
     city: "Jacksonville",
     county: "Duval",
+    status: "coming-soon",
     priceCents: 7999,
     spotCount: 164,
     inshoreCount: 92,
@@ -479,6 +501,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "gulf-coast",
     city: "Naples",
     county: "Collier",
+    status: "coming-soon",
     priceCents: 6999,
     spotCount: 196,
     inshoreCount: 196,
@@ -541,6 +564,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "east-coast",
     city: "Fort Lauderdale",
     county: "Broward",
+    status: "coming-soon",
     priceCents: 8999,
     spotCount: 174,
     inshoreCount: 28,
@@ -603,6 +627,7 @@ export const PRODUCTS: RegionProduct[] = [
     region: "east-coast",
     city: "Stuart",
     county: "Martin",
+    status: "coming-soon",
     priceCents: 6999,
     spotCount: 158,
     inshoreCount: 158,
@@ -659,24 +684,49 @@ export const PRODUCTS: RegionProduct[] = [
     ],
   },
   {
-    slug: "florida-statewide-bundle",
-    name: "Florida Statewide Bundle — Every GPS Map",
-    shortName: "Statewide Bundle",
-    region: "statewide",
-    city: "Florida",
-    county: "Statewide",
-    priceCents: 39999,
-    spotCount: 1855,
-    inshoreCount: 812,
-    offshoreCount: 838,
-    reefCount: 156,
-    wreckCount: 79,
+    slug: "south-florida-bundle",
+    name: "South Florida Bundle — Keys + Miami GPS Maps",
+    shortName: "South Florida Bundle",
+    region: "south-florida",
+    city: "South Florida",
+    county: "Monroe & Miami-Dade",
+    status: "live",
+    isBundle: true,
+    priceCents: 14999,
+    spotCount: 499,
+    inshoreCount: 118,
+    offshoreCount: 266,
+    reefCount: 76,
+    wreckCount: 39,
     description:
-      "Every region. Every spot. 1,855 GPS coordinates across the entire state of Florida — save about $270 vs. buying separately.",
+      "Both of our live regions in one purchase: 499 GPS spots across the Florida Keys and Miami Offshore — save $39.99 vs. buying separately.",
     longDescription:
-      "Buy every regional map at once and save. The Statewide Bundle includes the Keys, Tampa Bay, Miami, the Panhandle, Jacksonville, the Everglades, Fort Lauderdale, and the Indian River Lagoon — 1,855 GPS-verified spots covering inshore, offshore, reefs, wrecks and ledges. The same chartplotter format pack you'd choose for a single region applies to the entire bundle.",
-    speciesTargets: ["Every species in Florida"],
-    launchPoints: ["Statewide"],
+      "The two regions we currently have charted and ready to ship, together at a discount. You get the complete Florida Keys pack (312 spots from Key Largo to the Marquesas — reefs, wrecks, humps, ledges and backcountry flats) and the complete Miami Offshore pack (187 spots from Government Cut to the Gulf Stream edge). Every chartplotter format is included for both regions, along with the universal .gpx and Google Earth .kmz files and the PDF guides. As we finish charting more of Florida, new regions will launch separately — this bundle is exactly what exists today, nothing invented.",
+    speciesTargets: [
+      "Yellowtail Snapper",
+      "Mutton Snapper",
+      "Black Grouper",
+      "Permit",
+      "Tarpon",
+      "Sailfish",
+      "Mahi-Mahi",
+      "Wahoo",
+      "Blackfin Tuna",
+      "Kingfish",
+      "Swordfish",
+      "Bonefish",
+    ],
+    launchPoints: [
+      "Key Largo",
+      "Islamorada",
+      "Marathon",
+      "Big Pine Key",
+      "Key West",
+      "Miami Beach",
+      "Government Cut",
+      "Haulover Inlet",
+      "Crandon Park",
+    ],
     featured: true,
     files: {},
     heroImage: HERO_DEFAULT,
@@ -687,31 +737,25 @@ export const PRODUCTS: RegionProduct[] = [
         credit: "Catherine / Unsplash",
       },
       {
-        src: "https://images.unsplash.com/photo-1657373725182-6bb195badcbc?auto=format&fit=crop&w=900&q=80",
-        alt: "Tampa Bay water at sunset",
-        credit: "Anita Denunzio / Unsplash",
-      },
-      {
         src: "https://images.unsplash.com/photo-1707803805432-ffb294d8027e?auto=format&fit=crop&w=900&q=80",
         alt: "Miami Beach offshore water with a boat in the distance",
         credit: "Arnav Das / Unsplash",
       },
       {
-        src: "https://images.unsplash.com/photo-1671678075677-eae303b606aa?auto=format&fit=crop&w=900&q=80",
-        alt: "Everglades wetlands and boating scenery",
-        credit: "Richard Sagredo / Unsplash",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1751983115040-ab72bb397195?auto=format&fit=crop&w=900&q=80",
-        alt: "Indian River Lagoon sunrise pier and water scene",
-        credit: "Phyllis Lilienthal / Unsplash",
+        src: "https://images.unsplash.com/photo-1697490600572-9e0b2c1eefea?auto=format&fit=crop&w=900&q=80",
+        alt: "Sailboat on the ocean at sunset near Key West",
+        credit: "Tim Nichols / Unsplash",
       },
     ],
-    center: { lat: 27.6648, lng: -81.5158 },
+    center: { lat: 25.1584, lng: -80.9859 },
     faqs: [
       {
-        q: "How much do I save versus buying regions separately?",
-        a: "You pay $399.99 for all 1,855 spots instead of $669.92 buying the eight regions one at a time — a saving of about $270.",
+        q: "How much do I save versus buying both regions separately?",
+        a: "The Keys pack is $99.99 and Miami Offshore is $89.99 — $189.98 together. The bundle is $149.99, a saving of $39.99 (about 21%).",
+      },
+      {
+        q: "Why only two regions? What happened to the statewide bundle?",
+        a: "We only sell what we can deliver today. The Keys and Miami Offshore packs are finished, verified and ready to ship; the other regions are still being charted. When more regions are done, they'll launch individually and bigger bundles will return.",
       },
       {
         q: "How soon is it delivered?",
@@ -719,15 +763,11 @@ export const PRODUCTS: RegionProduct[] = [
       },
       {
         q: "Do I get one big file or one file per region?",
-        a: "Both. You get one file per region in your chosen format plus a combined file containing every spot, so you can load them as separate folders or as one big set.",
+        a: "One download containing both complete region packs — each with every chartplotter format, the universal .gpx, the Google Earth .kmz, and the PDF guides. Load them as separate folders or together.",
       },
       {
         q: "Does my chartplotter choice apply to the whole bundle?",
-        a: "Yes. The format you pick at checkout (Garmin, Lowrance, Humminbird, Simrad, Raymarine or Furuno) applies to every region in the bundle, and a universal .gpx and Google Earth .kmz are included too.",
-      },
-      {
-        q: "Which regions are included?",
-        a: "All eight: the Keys, Tampa Bay, Miami Offshore, the Panhandle, Jacksonville, the Everglades & 10,000 Islands, Fort Lauderdale & Palm Beach, and the Indian River Lagoon.",
+        a: "Your download includes every format for both regions — Garmin, Lowrance, Humminbird, Simrad, Raymarine, plus universal .gpx and Google Earth .kmz — so it works no matter which unit you run (or if you switch brands later).",
       },
     ],
   },
@@ -737,6 +777,26 @@ export function getProduct(slug: string): RegionProduct | undefined {
   return PRODUCTS.find((p) => p.slug === slug);
 }
 
+/** Products that are purchasable today (deliverable files exist). */
+export const LIVE_PRODUCTS = PRODUCTS.filter((p) => p.status === "live");
+
+/** Single-region products (bundles excluded) — used for derived totals. */
+export const REGION_PRODUCTS = PRODUCTS.filter((p) => !p.isBundle);
+
+/** Live single-region products. */
+export const LIVE_REGION_PRODUCTS = REGION_PRODUCTS.filter(
+  (p) => p.status === "live"
+);
+
+/**
+ * Total spots across LIVE regions only. Every marketing number on the site
+ * derives from this — never hardcode spot totals in components.
+ */
+export const LIVE_SPOT_TOTAL = LIVE_REGION_PRODUCTS.reduce(
+  (n, p) => n + p.spotCount,
+  0
+);
+
 export function getFeatured(): RegionProduct[] {
-  return PRODUCTS.filter((p) => p.featured);
+  return PRODUCTS.filter((p) => p.featured && p.status === "live");
 }

@@ -63,7 +63,7 @@ async function fulfill(session: Stripe.Checkout.Session) {
     return;
   }
 
-  const ttl = Number(process.env.DOWNLOAD_TOKEN_TTL_HOURS || 168);
+  const ttl = Number(process.env.DOWNLOAD_TOKEN_TTL_HOURS || 720); // 30 days
   const token = signDownloadToken({
     slug,
     format,

@@ -34,7 +34,9 @@ export default function OpenGraphImage() {
             textTransform: "uppercase",
           }}
         >
-          ◈ FloridaFishingMaps
+          {/* Plain ASCII only — exotic glyphs trigger a dynamic-font fetch
+              that 400s at the edge (recurring production error). */}
+          FloridaFishingMaps
         </div>
         <div
           style={{
@@ -90,7 +92,7 @@ export default function OpenGraphImage() {
             paddingTop: 24,
           }}
         >
-          <span>1,855+ verified spots · 8 Florida regions</span>
+          <span>Real GPS spots · Instant email delivery</span>
           <span style={{ color: "#FF6B47", fontWeight: 700 }}>
             floridafishingmaps.com
           </span>
