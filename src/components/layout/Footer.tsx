@@ -32,9 +32,8 @@ export function Footer() {
           <ul className="space-y-2 text-sm text-foam/70">
             <li><Link href="/maps" className="hover:text-plotter">All Regions</Link></li>
             <li><Link href="/maps/florida-keys" className="hover:text-plotter">Florida Keys</Link></li>
-            <li><Link href="/maps/tampa-bay" className="hover:text-plotter">Tampa Bay</Link></li>
             <li><Link href="/maps/miami-offshore" className="hover:text-plotter">Miami Offshore</Link></li>
-            <li><Link href="/maps/panhandle" className="hover:text-plotter">Panhandle</Link></li>
+            <li><Link href="/maps/south-florida-bundle" className="hover:text-plotter">South Florida Bundle</Link></li>
           </ul>
         </div>
 

@@ -25,7 +25,7 @@ export default function HowItWorksPage() {
             n="01"
             icon={<Map className="h-7 w-7" />}
             title="Pick your region"
-            body="Browse the catalog and choose the area of Florida you want to fish. Each pack covers a specific stretch of coastline — the Keys, Tampa Bay, Miami offshore, the Panhandle, Jacksonville, the Everglades, Fort Lauderdale & Palm Beach, or the Indian River Lagoon. The Statewide Bundle includes everything at over 50% off."
+            body="Browse the catalog and choose the area of Florida you want to fish. The Florida Keys and Miami Offshore packs are live today, and the South Florida Bundle pairs them at about 21% off buying separately. More regions — Tampa Bay, the Panhandle, Jacksonville, the Everglades, Fort Lauderdale & Palm Beach, and the Indian River Lagoon — are being charted and open for launch-list signups."
           />
           <Step
             n="02"

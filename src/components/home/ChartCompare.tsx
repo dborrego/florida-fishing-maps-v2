@@ -129,7 +129,7 @@ export function ChartCompare() {
               })}
             </svg>
             <div className="absolute right-4 top-4 rounded-md bg-plotter/15 px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-plotter ring-1 ring-plotter/40">
-              Loaded · 312 spots
+              Loaded · Keys pack
             </div>
           </div>
 

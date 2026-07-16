@@ -253,13 +253,13 @@ export function SonarDepthFinder() {
             </p>
             <ul className="mt-6 space-y-3 text-sm text-foam/80">
               <li className="flex items-center gap-3">
-                <MapPin className="h-4 w-4 text-sonar shrink-0" /> 1,855+ GPS-verified marks on real structure
+                <MapPin className="h-4 w-4 text-sonar shrink-0" /> Hundreds of GPS marks on real structure — not auto-placed pins
               </li>
               <li className="flex items-center gap-3">
                 <Fish className="h-4 w-4 text-sonar shrink-0" /> Reefs, wrecks, humps, ledges and flats
               </li>
               <li className="flex items-center gap-3">
-                <Radar className="h-4 w-4 text-sonar shrink-0" /> Confirmed against bottom-machine returns
+                <Radar className="h-4 w-4 text-sonar shrink-0" /> Every mark labeled by structure type and species
               </li>
             </ul>
             <div className="mt-8">

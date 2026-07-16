@@ -63,20 +63,20 @@ export function ProductJsonLd({ product }: { product: RegionProduct }) {
         brand: { "@type": "Brand", name: "Florida Fishing Maps" },
         category: "GPS Fishing Maps",
         image: [product.heroImage],
-        offers: {
-          "@type": "Offer",
-          url,
-          priceCurrency: "USD",
-          price: (product.priceCents / 100).toFixed(2),
-          availability: "https://schema.org/InStock",
-          itemCondition: "https://schema.org/NewCondition",
-          seller: { "@type": "Organization", name: "Florida Fishing Maps" },
-        },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "4.9",
-          reviewCount: "127",
-        },
+        // NOTE: no aggregateRating on purpose — review markup is only allowed
+        // once real, on-site customer reviews exist (Google policy).
+        offers:
+          product.status === "live"
+            ? {
+                "@type": "Offer",
+                url,
+                priceCurrency: "USD",
+                price: (product.priceCents / 100).toFixed(2),
+                availability: "https://schema.org/InStock",
+                itemCondition: "https://schema.org/NewCondition",
+                seller: { "@type": "Organization", name: "Florida Fishing Maps" },
+              }
+            : undefined,
       }}
     />
   );

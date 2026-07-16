@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "About Florida Fishing Maps",
   description:
-    "We're Florida fishermen who got tired of watching captains burn fuel hunting for spots. So we packaged 20+ years of GPS waypoints into chartplotter-ready files.",
+    "We package real Florida GPS fishing coordinates — reefs, wrecks, ledges and flats — into clean, chartplotter-ready files for Garmin, Lowrance, Humminbird, Simrad, Raymarine and more.",
   path: "/about",
 });
 
@@ -15,28 +15,29 @@ export default function AboutPage() {
     <Container>
       <Section
         eyebrow="About"
-        title="Built by Florida captains, for Florida captains"
+        title="Real spots, in the file format your unit actually takes"
       >
         <div className="prose prose-invert max-w-3xl text-foam/80 leading-relaxed space-y-5 text-base">
           <p>
             Florida Fishing Maps started the way most good things start — out
-            of frustration. After spending too many trips watching newer boat
-            owners idle around the same patches of bottom, hoping to stumble
-            onto fish, we decided to package what we'd spent decades collecting:
-            real, verified GPS coordinates of productive Florida fishing spots.
+            of frustration. A chartplotter fresh out of the box is an empty
+            map, and building a spot book the hard way takes seasons of fuel
+            and dead drifts. We package real, curated GPS coordinates of
+            productive Florida fishing spots so you can skip that curve.
           </p>
           <p>
-            Every spot in our catalog was fished, marked, and confirmed before
-            it made the cut. We didn't pull these from old chart books or
-            scrape them from forums. They're the actual numbers Florida
-            captains rely on, organized by region and packaged in the exact file
-            format your chartplotter expects.
+            Every pack is cleaned, deduplicated, labeled by structure type and
+            target species, and delivered in the exact file your chartplotter
+            expects — native Garmin, Lowrance, Humminbird, Simrad and Raymarine
+            formats plus a universal .gpx and a Google Earth .kmz.
           </p>
           <p>
-            We keep the catalog tight — eight regional packs that cover the
-            entire state, plus a Statewide Bundle for the captains who run all
-            over. We update the spots seasonally and add new ones as we verify
-            them. When you buy once, you keep access for life.
+            We keep the catalog honest: we only sell a region once its files
+            are finished and verified. The Florida Keys and Miami Offshore
+            packs are live today; the rest of the state is being charted and
+            listed as coming soon — with no invented spot counts in the
+            meantime. Your download link lasts 30 days, and if you ever lose
+            the files, email us and we&apos;ll send a fresh one.
           </p>
           <p>
             Got a question? Email{" "}

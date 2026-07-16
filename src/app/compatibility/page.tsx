@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 const BRANDS = [
   {
     brand: "Garmin",
-    extension: ".gpx",
+    extension: ".adm",
     units: [
       "GPSMAP series (8400, 8600, 9000)",
       "ECHOMAP UHD",
@@ -23,7 +23,7 @@ const BRANDS = [
       "Handhelds: GPSMAP 78s, 64sx, 86s",
     ],
     instructions:
-      "Insert SD card → Garmin will prompt to import waypoints → choose the .gpx file → spots appear under Waypoints.",
+      "Put the native .adm file on an SD card → insert it → Import User Data → spots appear under Waypoints. A universal .gpx is also in your ZIP (drop it in /Garmin/GPX) if you prefer GPX import.",
   },
   {
     brand: "Lowrance",
@@ -34,17 +34,17 @@ const BRANDS = [
   },
   {
     brand: "Humminbird",
-    extension: ".gpx",
+    extension: ".HWR",
     units: ["Helix series (5–15)", "Solix series", "Apex series", "Onix"],
     instructions:
-      "Insert SD card → Menu → Nav Data → Import → select the .gpx file. Spots load into the Waypoint Manager.",
+      "Put the native .HWR file on an SD card → insert it → Menu → Nav Data → Import. Spots load into the Waypoint Manager.",
   },
   {
     brand: "Simrad",
-    extension: ".usr",
+    extension: ".gpx",
     units: ["NSS evo3 / evo3S", "NSO evo3", "GO9 / GO12", "Cruise series"],
     instructions:
-      "Insert SD → Files → Memory Card → tap the .usr → Import. Spots appear under Waypoints.",
+      "Insert SD → Files → Memory Card → tap the .gpx → Import. Spots appear under Waypoints.",
   },
   {
     brand: "Raymarine",
@@ -65,7 +65,7 @@ const BRANDS = [
     extension: ".gpx",
     units: ["Navionics Boating (iOS)", "Navionics Boating (Android)"],
     instructions:
-      "Open the email on your phone → tap the .gpx attachment → 'Open in Navionics'. Spots become waypoints.",
+      "Open your download email on the phone → download the ZIP → tap the universal .gpx → 'Open in Navionics'. Spots become waypoints.",
   },
   {
     brand: "Google Earth",

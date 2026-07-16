@@ -35,8 +35,10 @@ export async function sendOrderEmail(input: OrderEmailInput) {
 
     <p style="font-size:15px;line-height:1.6;color:#cbd5e1;margin:0 0 24px;">
       Thanks for buying <strong style="color:#F8FAFC">${productName}</strong> —
-      <strong style="color:#F8FAFC">${spotCount}</strong> GPS-verified fishing
-      spots packaged for <strong style="color:#F8FAFC">${formatLabel}</strong>.
+      <strong style="color:#F8FAFC">${spotCount}</strong> GPS fishing
+      spots. Your ZIP includes the <strong style="color:#F8FAFC">${formatLabel}</strong> file
+      plus every other chartplotter format, a universal .gpx, a Google Earth .kmz,
+      and the PDF loading guides.
     </p>
 
     <div style="background:rgba(15,34,64,.5);border:1px solid rgba(0,229,255,.2);border-radius:12px;padding:24px;margin-bottom:24px;">
@@ -48,14 +50,14 @@ export async function sendOrderEmail(input: OrderEmailInput) {
         Download My Maps →
       </a>
       <div style="font-size:12px;color:#94a3b8;margin-top:12px;">
-        Link is active for ${expiresHours} hours.
+        Link is active for ${Math.round(expiresHours / 24)} days.
         Lost it later? Reply to this email and we'll send a fresh one.
       </div>
     </div>
 
     <h2 style="font-size:16px;color:#F8FAFC;margin:28px 0 8px;">How to load on your chartplotter</h2>
     <ol style="font-size:14px;line-height:1.7;color:#cbd5e1;padding-left:18px;margin:0 0 24px;">
-      <li>Download the file (button above) and save it to a blank SD card.</li>
+      <li>Download the ZIP (button above), open it, and copy your brand's file to a blank SD card.</li>
       <li>Plug the SD card into your chartplotter.</li>
       <li>Use your unit's Import / My Data / Files menu to load the spots.</li>
       <li>Spots appear as labeled waypoints. Pick one and route to it.</li>
@@ -76,13 +78,13 @@ export async function sendOrderEmail(input: OrderEmailInput) {
 
   const text = `Your ${productName} download is ready.
 
-${spotCount} GPS-verified fishing spots, packaged for ${formatLabel}.
+${spotCount} GPS fishing spots. Your ZIP includes the ${formatLabel} file plus every other chartplotter format, a universal .gpx, a Google Earth .kmz, and the PDF loading guides.
 
 Download: ${downloadUrl}
-(Link active for ${expiresHours} hours.)
+(Link active for ${Math.round(expiresHours / 24)} days. Lost it later? Reply to this email and we'll send a fresh one.)
 
 How to load:
-1. Download the file and save it to a blank SD card.
+1. Download the ZIP, open it, and copy your brand's file to a blank SD card.
 2. Plug the SD card into your chartplotter.
 3. Use Import / My Data / Files to load the spots.
 4. Spots appear as labeled waypoints.

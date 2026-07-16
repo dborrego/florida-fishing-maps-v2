@@ -1,47 +1,54 @@
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
-import { PRODUCTS } from "@/lib/products";
+import {
+  LIVE_REGION_PRODUCTS,
+  LIVE_SPOT_TOTAL,
+  FORMAT_CATALOG,
+} from "@/lib/products";
 import { ShieldCheck, Radar, Layers, Quote } from "lucide-react";
 
 /**
  * CaptainProof
  *
- * Credibility, not fluff. Leads with verifiable facts derived from the catalog
- * plus the standing marketing claims (captains served, seasons). Then shows the
- * concrete verification process. Testimonials render only when real ones are
- * added to TESTIMONIALS — we ship no fabricated quotes.
+ * Credibility, not fluff. Every stat here is derived from the live catalog or
+ * is a plainly verifiable fact — no invented social proof. Testimonials render
+ * only when real ones are added to TESTIMONIALS — we ship no fabricated quotes.
  */
 
 // To add real social proof, drop entries here (with permission). Leave empty
 // and the testimonials block simply doesn't render.
 const TESTIMONIALS: { quote: string; name: string; detail: string }[] = [];
 
-const regions = PRODUCTS.filter((p) => p.region !== "statewide");
-const totalSpots = regions.reduce((n, p) => n + p.spotCount, 0);
-const structureMarks = regions.reduce((n, p) => n + p.reefCount + p.wreckCount, 0);
+const structureMarks = LIVE_REGION_PRODUCTS.reduce(
+  (n, p) => n + p.reefCount + p.wreckCount,
+  0
+);
 
 const STATS = [
-  { value: totalSpots.toLocaleString(), label: "GPS-verified spots" },
-  { value: `${regions.length}`, label: "Regions across Florida" },
-  { value: "8,400+", label: "Captains loaded up" },
-  { value: "20+", label: "Seasons of local knowledge" },
+  { value: LIVE_SPOT_TOTAL.toLocaleString(), label: "GPS spots live today" },
+  { value: `${LIVE_REGION_PRODUCTS.length}`, label: "Regions ready to ship" },
+  {
+    value: `${Object.keys(FORMAT_CATALOG).length}`,
+    label: "Chartplotter formats",
+  },
+  { value: "< 1 hr", label: "Checkout to loaded card" },
 ];
 
 const VERIFY = [
   {
     icon: <Radar className="h-6 w-6" />,
-    title: "Fished, not generated",
-    body: "Every coordinate was collected on the water by working Florida captains — not scraped, guessed, or auto-placed on a chart.",
+    title: "Real structure, labeled",
+    body: "Reefs, wrecks, ledges, humps and flats — every coordinate is labeled by structure type and target species, not dropped as an anonymous pin.",
   },
   {
     icon: <ShieldCheck className="h-6 w-6" />,
-    title: "Confirmed on the machine",
-    body: "Each mark was checked against bottom-machine returns to confirm there's real structure holding fish before it made the pack.",
+    title: "Only what's finished",
+    body: "We list a region for sale only when its files are complete and load-tested. Regions still being charted say so — no invented spot counts, ever.",
   },
   {
     icon: <Layers className="h-6 w-6" />,
     title: "Cleaned & formatted",
-    body: `Duplicates removed, every spot labeled by type, and the ${structureMarks.toLocaleString()} reef and wreck marks packaged for your exact chartplotter.`,
+    body: `Duplicates removed, coordinates checked, and the ${structureMarks.toLocaleString()} reef and wreck marks packaged in your exact chartplotter's native file format.`,
   },
 ];
 
@@ -50,9 +57,9 @@ export function CaptainProof() {
     <div className="bg-gradient-to-b from-deep/30 to-abyss border-y border-plotter/10">
       <Container>
         <Section
-          eyebrow="Captain-built proof"
-          title="Built from real seasons on the water"
-          subtitle="No stock databases, no random pins. Here's what's behind every pack."
+          eyebrow="What's behind every pack"
+          title="Honest numbers, finished files"
+          subtitle="Every stat below comes straight from the catalog — if a region isn't ready, we say so instead of selling it."
           align="center"
         >
           {/* stat band */}

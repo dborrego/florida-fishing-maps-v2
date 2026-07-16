@@ -23,7 +23,7 @@ const HOMEPAGE_FAQS = [
   },
   {
     q: "Are these real fishing spots or random GPS points?",
-    a: "Every spot has been fished and verified. They were collected over more than 20 years by working Florida captains and confirmed against bottom-machine returns.",
+    a: "Real spots on real structure — reefs, wrecks, ledges, humps and flats — curated, deduplicated and labeled by structure type and species. No auto-generated grids or random pins.",
   },
   {
     q: "What's the difference between inshore, offshore, reef, and wreck spots?",
@@ -154,8 +154,8 @@ export default function HomePage() {
               <ButtonLink href="/maps" size="lg" variant="primary">
                 Shop All Regions
               </ButtonLink>
-              <ButtonLink href="/maps/florida-statewide-bundle" size="lg" variant="secondary">
-                Get the Statewide Bundle (Best Value)
+              <ButtonLink href="/maps/south-florida-bundle" size="lg" variant="secondary">
+                Get the South Florida Bundle (Best Value)
               </ButtonLink>
             </div>
           </Section>

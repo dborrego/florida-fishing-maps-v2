@@ -37,7 +37,8 @@ export function signDownloadToken(opts: {
   oid: string;
   ttlHours?: number;
 }): string {
-  const ttl = opts.ttlHours ?? Number(process.env.DOWNLOAD_TOKEN_TTL_HOURS || 168);
+  // Default 30 days — matches the "30-day download link" promise on the site.
+  const ttl = opts.ttlHours ?? Number(process.env.DOWNLOAD_TOKEN_TTL_HOURS || 720);
   const payload: TokenPayload = {
     slug: opts.slug,
     format: opts.format,

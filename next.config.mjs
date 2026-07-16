@@ -9,6 +9,17 @@ const nextConfig = {
       { protocol: "https", hostname: "images.unsplash.com" },
     ],
   },
+  async redirects() {
+    return [
+      {
+        // The undeliverable statewide bundle was replaced by the honest
+        // two-region South Florida bundle.
+        source: "/maps/florida-statewide-bundle",
+        destination: "/maps/south-florida-bundle",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
